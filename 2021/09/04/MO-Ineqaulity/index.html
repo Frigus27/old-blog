@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.2.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"frigus27.xyz","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="本文为数学竞赛不等式的复习笔记．">
+<meta property="og:type" content="article">
+<meta property="og:title" content="不等式复习笔记">
+<meta property="og:url" content="https://frigus27.xyz/2021/09/04/MO-Ineqaulity/index.html">
+<meta property="og:site_name" content="霜夏の个人小站">
+<meta property="og:description" content="本文为数学竞赛不等式的复习笔记．">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-09-04T15:39:58.000Z">
+<meta property="article:modified_time" content="2021-10-17T07:54:01.281Z">
+<meta property="article:author" content="霜夏">
+<meta property="article:tag" content="不等式">
+<meta property="article:tag" content="数学竞赛">
+<meta property="article:tag" content="复习笔记">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://frigus27.xyz/2021/09/04/MO-Ineqaulity/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://frigus27.xyz/2021/09/04/MO-Ineqaulity/","path":"2021/09/04/MO-Ineqaulity/","title":"不等式复习笔记"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>不等式复习笔记 | 霜夏の个人小站</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">霜夏の个人小站</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-首页"><a href="/" rel="section">首页</a></li><li class="menu-item menu-item-存档"><a href="/archives" rel="section">存档</a></li><li class="menu-item menu-item-标签"><a href="/tags" rel="section">标签</a></li><li class="menu-item menu-item-分类"><a href="/categories" rel="section">分类</a></li><li class="menu-item menu-item-关于"><a href="/about" rel="section">关于</a></li><li class="menu-item menu-item-数竞笔记"><a href="/monotes" rel="section">数竞笔记</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E4%B8%8D%E7%AD%89%E5%BC%8F%E4%B8%8E%E5%B8%B8%E7%94%A8%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text">基础不等式与常用不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%80%E5%9F%BA%E6%9C%AC%E7%9A%84%E4%B8%8D%E7%AD%89%E5%BC%8F%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%A0%B9%E6%BA%90"><span class="nav-number">1.1.</span> <span class="nav-text">最基本的不等式——不等式的根源</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B9%B3%E6%96%B9%E9%9D%9E%E8%B4%9F%E6%80%A7"><span class="nav-number">1.1.1.</span> <span class="nav-text">平方非负性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%9A%E7%90%86"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">定理</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%8E%A8%E8%AE%BA"><span class="nav-number">1.1.1.1.1.</span> <span class="nav-text">推论</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%B3%A8"><span class="nav-number">1.1.1.1.2.</span> <span class="nav-text">注</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E6%AC%A1%E5%87%BD%E6%95%B0%E4%B8%8E%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.1.2.</span> <span class="nav-text">二次函数与一元二次不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%9A%E7%90%86-1"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">定理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%87%8D%E8%A6%81%E6%8E%A8%E8%AE%BA"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">重要推论</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E7%9A%84%E9%87%8D%E8%A6%81%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.2.</span> <span class="nav-text">常见的重要不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E7%90%861%E4%BA%8C%E5%85%83%E9%87%8D%E8%A6%81%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.2.1.</span> <span class="nav-text">定理1（二元重要不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E7%90%862%E4%B8%89%E5%85%83%E9%87%8D%E8%A6%81%E4%B8%8D%E7%AD%89%E5%BC%8F1"><span class="nav-number">1.2.2.</span> <span class="nav-text">定理2（三元重要不等式—1）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-1"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">证明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-1"><span class="nav-number">1.2.2.2.</span> <span class="nav-text">注</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8E%A8%E8%AE%BA1"><span class="nav-number">1.2.2.3.</span> <span class="nav-text">推论1</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8E%A8%E8%AE%BA2"><span class="nav-number">1.2.2.4.</span> <span class="nav-text">推论2</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8E%A8%E8%AE%BA12%E7%9A%84%E8%AF%81%E6%98%8E"><span class="nav-number">1.2.2.5.</span> <span class="nav-text">推论1、2的证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E7%90%863%E4%B8%89%E5%85%83%E9%87%8D%E8%A6%81%E4%B8%8D%E7%AD%89%E5%BC%8F2"><span class="nav-number">1.2.3.</span> <span class="nav-text">定理3（三元重要不等式—2）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-2"><span class="nav-number">1.2.3.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E7%90%864%E4%B8%89%E5%85%83%E9%87%8D%E8%A6%81%E4%B8%8D%E7%AD%89%E5%BC%8F3"><span class="nav-number">1.2.4.</span> <span class="nav-text">定理4（三元重要不等式—3）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-3"><span class="nav-number">1.2.4.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E7%90%865%E5%9B%9B%E5%85%83%E9%87%8D%E8%A6%81%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.2.5.</span> <span class="nav-text">定理5（四元重要不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-4"><span class="nav-number">1.2.5.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8-2"><span class="nav-number">1.2.6.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%AB%98%E8%81%94%E4%BA%94%E5%A4%A7%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.3.</span> <span class="nav-text">高联五大不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%97%E6%9C%AF%E5%B9%B3%E5%9D%87-%E5%87%A0%E4%BD%95%E5%B9%B3%E5%9D%87%E4%B8%8D%E7%AD%89%E5%BC%8Fam-gm%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.3.1.</span> <span class="nav-text">算术平均-几何平均不等式（AM-GM不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E5%8F%8D%E5%90%91%E5%BD%92%E7%BA%B3%E6%B3%95%E6%9F%AF%E8%A5%BF%E5%BD%92%E7%BA%B3%E6%B3%95"><span class="nav-number">1.3.1.1.</span> <span class="nav-text">证明（反向归纳法／柯西归纳法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8E%A8%E5%B9%BF%E5%9D%87%E5%80%BC%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.3.1.2.</span> <span class="nav-text">推广：均值不等式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%AF%E8%A5%BF%E6%96%BD%E7%93%A6%E8%8C%A8%E4%B8%8D%E7%AD%89%E5%BC%8Fcauchy-schwarz%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.3.2.</span> <span class="nav-text">柯西—施瓦茨不等式（Cauchy-Schwarz不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E5%88%A4%E5%88%AB%E5%BC%8F%E6%B3%95"><span class="nav-number">1.3.2.1.</span> <span class="nav-text">证明（判别式法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E6%81%92%E7%AD%89%E5%BC%8F%E6%B3%95"><span class="nav-number">1.3.2.2.</span> <span class="nav-text">证明（恒等式法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-3"><span class="nav-number">1.3.2.3.</span> <span class="nav-text">注</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%87%8D%E8%A6%81%E6%8E%A8%E8%AE%BA1%E6%8B%89%E4%B8%9C%E5%AE%9A%E7%90%86radon%E5%AE%9A%E7%90%86titu%E5%BC%95%E7%90%86%E6%9D%83%E6%96%B9%E5%92%8C%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E4%BA%8C%E6%AC%A1%E5%BD%A2%E5%BC%8F"><span class="nav-number">1.3.2.4.</span> <span class="nav-text">重要推论1：拉东定理（Radon定理）／Titu引理／权方和不等式的二次形式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%87%8D%E8%A6%81%E6%8E%A8%E8%AE%BA2%E6%9F%AF%E8%A5%BF%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%BA%94%E7%94%A8%E4%B8%AD%E7%9A%84%E5%B8%B8%E7%94%A8%E7%BB%93%E8%AE%BA"><span class="nav-number">1.3.2.5.</span> <span class="nav-text">重要推论2：柯西不等式应用中的常用结论</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8E%92%E5%BA%8F%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.3.3.</span> <span class="nav-text">排序不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E4%BA%8C%E6%AC%A1%E5%87%BD%E6%95%B0%E6%B3%95"><span class="nav-number">1.3.3.1.</span> <span class="nav-text">证明（二次函数法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E9%98%BF%E8%B4%9D%E5%B0%94%E5%8F%98%E6%8D%A2abel%E5%8F%98%E6%8D%A2%E6%B3%95"><span class="nav-number">1.3.3.2.</span> <span class="nav-text">证明（阿贝尔变换（Abel变换）法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-4"><span class="nav-number">1.3.3.3.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E4%B8%8D%E7%AD%89%E5%BC%8Fchebyshev%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.3.4.</span> <span class="nav-text">切比雪夫不等式（Chebyshev不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E4%BA%8C%E6%AC%A1%E5%87%BD%E6%95%B0%E6%B3%95-1"><span class="nav-number">1.3.4.1.</span> <span class="nav-text">证明（二次函数法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E6%8E%92%E5%BA%8F%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%B3%95"><span class="nav-number">1.3.4.2.</span> <span class="nav-text">证明（排序不等式法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-5"><span class="nav-number">1.3.4.3.</span> <span class="nav-text">注</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%94%B9%E8%BF%9B%E7%9A%84%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.3.4.4.</span> <span class="nav-text">改进的切比雪夫不等式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%94%B9%E8%BF%9B%E5%90%8E%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E8%AF%81%E6%98%8Eabel%E5%8F%98%E6%8D%A2"><span class="nav-number">1.3.4.5.</span> <span class="nav-text">改进后不等式的证明（Abel变换）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%9D%E5%AF%B9%E5%80%BC%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.3.5.</span> <span class="nav-text">绝对值不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-5"><span class="nav-number">1.3.5.1.</span> <span class="nav-text">证明</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E4%B8%8D%E7%AD%89%E5%BC%8F%E4%B8%80%E5%B8%B8%E7%94%A8%E5%AE%9A%E7%90%86%E5%8F%8A%E7%BB%93%E8%AE%BA"><span class="nav-number">1.4.</span> <span class="nav-text">常用不等式（一）：常用定理及结论</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%AA%E7%8E%AF%E4%B9%98%E7%A7%AF%E5%92%8C%E5%BC%95%E7%90%86%E5%A5%B3%E5%A5%A5%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.4.1.</span> <span class="nav-text">循环乘积和引理／女奥不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-6"><span class="nav-number">1.4.1.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%88%92%E5%B0%94%E4%B8%8D%E7%AD%89%E5%BC%8Fschur%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.4.2.</span> <span class="nav-text">舒尔不等式（Schur不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-7"><span class="nav-number">1.4.2.1.</span> <span class="nav-text">证明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-6"><span class="nav-number">1.4.2.2.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.4.3.</span> <span class="nav-text">9-8不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-8"><span class="nav-number">1.4.3.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B5%8C%E5%85%A5%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.4.4.</span> <span class="nav-text">嵌入不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-9"><span class="nav-number">1.4.4.1.</span> <span class="nav-text">证明</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E4%B8%8D%E7%AD%89%E5%BC%8F%E4%BA%8C%E4%B8%80%E5%85%83%E5%87%B8%E5%87%B9%E5%87%BD%E6%95%B0%E5%8F%8A%E4%BC%98%E8%B6%85%E6%95%B0%E7%BB%84%E7%9B%B8%E5%85%B3%E5%AE%9A%E7%90%86"><span class="nav-number">1.5.</span> <span class="nav-text">常用不等式（二）：一元凸（凹）函数及优超数组相关定理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86%E4%B8%80%E5%85%83%E5%87%B8%E5%87%B9%E5%87%BD%E6%95%B0%E4%B8%8E%E4%BC%98%E8%B6%85%E6%95%B0%E7%BB%84"><span class="nav-number">1.5.1.</span> <span class="nav-text">预备知识：一元凸（凹）函数与优超数组</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80%E5%85%83%E5%87%B8%E5%87%B9%E5%87%BD%E6%95%B0"><span class="nav-number">1.5.1.1.</span> <span class="nav-text">一元凸（凹）函数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BC%98%E8%B6%85%E6%95%B0%E7%BB%84"><span class="nav-number">1.5.1.2.</span> <span class="nav-text">优超数组</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%90%B4%E7%94%9F%E4%B8%8D%E7%AD%89%E5%BC%8Fjensen%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.5.2.</span> <span class="nav-text">琴生不等式（Jensen不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-10"><span class="nav-number">1.5.2.1.</span> <span class="nav-text">证明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-7"><span class="nav-number">1.5.2.2.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%A0%E6%9D%83%E7%90%B4%E7%94%9F%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%8A%A0%E6%9D%83jensen%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.5.3.</span> <span class="nav-text">加权琴生不等式（加权Jensen不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-11"><span class="nav-number">1.5.3.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%A1%E6%8B%89%E7%8E%9B%E7%89%B9%E4%B8%8D%E7%AD%89%E5%BC%8Fkaramata%E4%B8%8D%E7%AD%89%E5%BC%8F%E4%BC%98%E8%B6%85%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.5.4.</span> <span class="nav-text">卡拉玛特不等式（Karamata不等式）／优超不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-12"><span class="nav-number">1.5.4.1.</span> <span class="nav-text">证明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-8"><span class="nav-number">1.5.4.2.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A9%86%E5%B0%94%E6%B5%B7%E5%BE%B7%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%B1%B3%E5%B0%94%E8%B5%AB%E5%BE%B7%E4%B8%8D%E7%AD%89%E5%BC%8Fmuirhead%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.5.5.</span> <span class="nav-text">穆尔海德不等式／米尔赫德不等式（Muirhead不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-13"><span class="nav-number">1.5.5.1.</span> <span class="nav-text">证明</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%BC%95%E7%90%86"><span class="nav-number">1.5.5.1.1.</span> <span class="nav-text">引理</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%BC%95%E7%90%86%E7%9A%84%E8%AF%81%E6%98%8E"><span class="nav-number">1.5.5.1.2.</span> <span class="nav-text">引理的证明</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%9B%9E%E5%88%B0%E5%8E%9F%E9%A2%98"><span class="nav-number">1.5.5.1.3.</span> <span class="nav-text">回到原题</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E4%B8%8D%E7%AD%89%E5%BC%8F%E4%B8%89%E5%8A%A0%E6%9D%83%E7%B1%BB%E6%8C%87%E5%AF%B9%E6%95%B0%E7%B1%BB"><span class="nav-number">1.6.</span> <span class="nav-text">常用不等式（三）：加权类、指对数类</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9D%A8%E6%B0%8F%E4%B8%8D%E7%AD%89%E5%BC%8Fyoung%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.6.1.</span> <span class="nav-text">杨氏不等式（Young不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E5%AF%BC%E6%95%B0%E6%B3%95"><span class="nav-number">1.6.1.1.</span> <span class="nav-text">证明（导数法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E7%90%B4%E7%94%9F%E6%B3%95"><span class="nav-number">1.6.1.2.</span> <span class="nav-text">证明（琴生法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-9"><span class="nav-number">1.6.1.3.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%A0%E6%9D%83%E7%AE%97%E6%9C%AF%E5%B9%B3%E5%9D%87-%E5%87%A0%E4%BD%95%E5%B9%B3%E5%9D%87%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%8A%A0%E6%9D%83am-gm%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.6.2.</span> <span class="nav-text">加权算术平均-几何平均不等式（加权AM-GM不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-14"><span class="nav-number">1.6.2.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BC%AF%E5%8A%AA%E5%88%A9%E4%B8%8D%E7%AD%89%E5%BC%8Fbernoulli%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.6.3.</span> <span class="nav-text">伯努利不等式（Bernoulli不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E5%88%87%E7%BA%BF%E6%B3%95"><span class="nav-number">1.6.3.1.</span> <span class="nav-text">证明（切线法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-10"><span class="nav-number">1.6.3.2.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B9%BF%E4%B9%89%E4%BC%AF%E5%8A%AA%E5%88%A9%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%B9%BF%E4%B9%89bernoulli%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.6.4.</span> <span class="nav-text">广义伯努利不等式（广义Bernoulli不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95"><span class="nav-number">1.6.4.1.</span> <span class="nav-text">证明（数学归纳法）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%9B%9B%E7%B1%BB%E6%9F%AF%E8%A5%BF%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.7.</span> <span class="nav-text">常用不等式（四）：类柯西不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%A1%E5%B0%94%E6%9D%BE%E4%B8%8D%E7%AD%89%E5%BC%8Fcarlson%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%B9%BF%E4%B9%89%E8%B5%AB%E5%B0%94%E5%BE%B7%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E9%BD%90%E6%AC%A1%E5%BD%A2%E5%BC%8F"><span class="nav-number">1.7.1.</span> <span class="nav-text">卡尔松不等式（Carlson不等式）／广义赫尔德不等式的齐次形式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E8%B5%AB%E5%B0%94%E5%BE%B7%E6%B3%95h%C3%B6lder%E6%B3%95"><span class="nav-number">1.7.1.1.</span> <span class="nav-text">证明（赫尔德法／Hölder法）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B5%AB%E5%B0%94%E5%BE%B7%E4%B8%8D%E7%AD%89%E5%BC%8Fh%C3%B6lder%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%B9%BF%E4%B9%89%E8%B5%AB%E5%B0%94%E5%BE%B7%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E4%B8%A4%E7%BB%84%E5%8F%98%E5%85%83%E5%BD%A2%E5%BC%8F"><span class="nav-number">1.7.2.</span> <span class="nav-text">赫尔德不等式（Hölder不等式）／广义赫尔德不等式的两组变元形式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E8%B5%AB%E5%B0%94%E5%BE%B7%E6%B3%95"><span class="nav-number">1.7.2.1.</span> <span class="nav-text">证明（赫尔德法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-11"><span class="nav-number">1.7.2.2.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B9%BF%E4%B9%89%E8%B5%AB%E5%B0%94%E5%BE%B7%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%B9%BF%E4%B9%89h%C3%B6lder%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.7.3.</span> <span class="nav-text">广义赫尔德不等式（广义Hölder不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E8%B5%AB%E5%B0%94%E5%BE%B7%E6%B3%95-1"><span class="nav-number">1.7.3.1.</span> <span class="nav-text">证明（赫尔德法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AF%B9%E4%BB%A5%E4%B8%8A%E4%B8%89%E4%B8%AA%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%B3%A8%E9%87%8A"><span class="nav-number">1.7.3.2.</span> <span class="nav-text">对以上三个不等式的注释</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9D%83%E6%96%B9%E5%92%8C%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.7.4.</span> <span class="nav-text">权方和不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-15"><span class="nav-number">1.7.4.1.</span> <span class="nav-text">证明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-12"><span class="nav-number">1.7.4.2.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B9%82%E5%B9%B3%E5%9D%87%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.7.5.</span> <span class="nav-text">幂平均不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-16"><span class="nav-number">1.7.5.1.</span> <span class="nav-text">证明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-13"><span class="nav-number">1.7.5.2.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%97%B5%E5%8F%AF%E5%A4%AB%E6%96%AF%E5%9F%BA%E4%B8%8D%E7%AD%89%E5%BC%8Fminkowski%E4%B8%8D%E7%AD%89%E5%BC%8F%E4%B8%89%E8%A7%92%E5%BD%A2%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.7.6.</span> <span class="nav-text">闵可夫斯基不等式（Minkowski不等式）／三角形不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-17"><span class="nav-number">1.7.6.1.</span> <span class="nav-text">证明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-14"><span class="nav-number">1.7.6.2.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%8C%83%E6%95%B0%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.7.7.</span> <span class="nav-text">范数不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-18"><span class="nav-number">1.7.7.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BA%B7%E6%89%98%E6%B4%9B%E7%BB%B4%E5%A5%87%E4%B8%8D%E7%AD%89%E5%BC%8Fkantorovich%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.7.8.</span> <span class="nav-text">康托洛维奇不等式（Kantorovich不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-19"><span class="nav-number">1.7.8.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%8E%BB%E5%88%A9%E4%BA%9A%E8%96%9B%E6%88%88%E4%B8%8D%E7%AD%89%E5%BC%8Fp%C3%B3lya-szeg%C3%B6%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.7.9.</span> <span class="nav-text">玻利亚—薛戈不等式（Pólya-Szegö不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-20"><span class="nav-number">1.7.9.1.</span> <span class="nav-text">证明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AF%B9%E4%BB%A5%E4%B8%8A%E4%B8%A4%E4%B8%AA%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%B3%A8"><span class="nav-number">1.7.9.2.</span> <span class="nav-text">对以上两个不等式的注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%98%BF%E5%85%8B%E5%A1%9E%E5%B0%94%E4%B8%8D%E7%AD%89%E5%BC%8Faczel%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.7.10.</span> <span class="nav-text">阿克塞尔不等式（Aczel不等式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E%E5%88%A4%E5%88%AB%E5%BC%8F%E6%B3%95-1"><span class="nav-number">1.7.10.1.</span> <span class="nav-text">证明（判别式法）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-15"><span class="nav-number">1.7.10.2.</span> <span class="nav-text">注</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E4%B8%8D%E7%AD%89%E5%BC%8F%E4%BA%94%E7%B1%BB%E8%88%92%E5%B0%94%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.8.</span> <span class="nav-text">常用不等式（五）：类舒尔不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#turkevich%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.8.1.</span> <span class="nav-text">Turkevich不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E5%BD%A2%E5%BC%8F"><span class="nav-number">1.8.1.1.</span> <span class="nav-text">第二形式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-21"><span class="nav-number">1.8.1.2.</span> <span class="nav-text">证明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-16"><span class="nav-number">1.8.1.3.</span> <span class="nav-text">注</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#suranyi%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">1.8.2.</span> <span class="nav-text">Suranyi不等式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-22"><span class="nav-number">1.8.2.1.</span> <span class="nav-text">证明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8-17"><span class="nav-number">1.8.2.2.</span> <span class="nav-text">注</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%92%8C%E5%BC%8F%E6%81%92%E7%AD%89%E5%8F%98%E6%8D%A2"><span class="nav-number">2.</span> <span class="nav-text">和式恒等变换</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B1%82%E5%92%8C%E6%97%B6%E7%9A%84%E4%BB%A3%E6%95%B0%E5%8F%98%E5%BD%A2"><span class="nav-number">2.1.</span> <span class="nav-text">求和时的代数变形</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E4%BB%A3%E6%95%B0%E5%8F%98%E5%BD%A2"><span class="nav-number">2.1.1.</span> <span class="nav-text">基本代数变形</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%98%BF%E8%B4%9D%E5%B0%94%E5%8F%98%E6%8D%A2abel%E5%8F%98%E6%8D%A2"><span class="nav-number">2.1.2.</span> <span class="nav-text">阿贝尔变换（Abel变换）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%98%BF%E8%B4%9D%E5%B0%94%E5%92%8C%E5%B7%AE%E5%8F%98%E6%8D%A2%E5%85%AC%E5%BC%8F"><span class="nav-number">2.1.2.1.</span> <span class="nav-text">阿贝尔和差变换公式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%98%BF%E8%B4%9D%E5%B0%94%E5%88%86%E9%83%A8%E6%B1%82%E5%92%8C%E5%85%AC%E5%BC%8F"><span class="nav-number">2.1.2.2.</span> <span class="nav-text">阿贝尔分部求和公式</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E6%81%92%E7%AD%89%E5%BC%8F"><span class="nav-number">2.2.</span> <span class="nav-text">常用恒等式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E6%81%92%E7%AD%89%E5%BC%8Flagrange%E6%81%92%E7%AD%89%E5%BC%8F"><span class="nav-number">2.2.1.</span> <span class="nav-text">拉格朗日恒等式（Lagrange恒等式）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B9%B3%E6%96%B9%E5%92%8C%E4%B9%98%E7%A7%AF%E6%81%92%E7%AD%89%E5%BC%8F"><span class="nav-number">2.2.2.</span> <span class="nav-text">平方和乘积恒等式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%9B%E9%A1%BF%E6%81%92%E7%AD%89%E5%BC%8Fnewton%E6%81%92%E7%AD%89%E5%BC%8F"><span class="nav-number">2.2.3.</span> <span class="nav-text">牛顿恒等式（Newton恒等式）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%A6%E4%B8%80%E4%B8%AA%E4%B8%8E%E9%9F%A6%E8%BE%BE%E5%AE%9A%E7%90%86%E6%9C%89%E5%85%B3%E7%9A%84%E6%81%92%E7%AD%89%E5%BC%8F"><span class="nav-number">2.2.4.</span> <span class="nav-text">另一个与韦达定理有关的恒等式</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7"><span class="nav-number">3.</span> <span class="nav-text">常用技巧</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="霜夏"
+      src="/image/avatar.jpg">
+  <p class="site-author-name" itemprop="name">霜夏</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">13</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://frigus27.xyz/2021/09/04/MO-Ineqaulity/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/image/avatar.jpg">
+      <meta itemprop="name" content="霜夏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="霜夏の个人小站">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="不等式复习笔记 | 霜夏の个人小站">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          不等式复习笔记
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-09-04 23:39:58" itemprop="dateCreated datePublished" datetime="2021-09-04T23:39:58+08:00">2021-09-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-10-17 15:54:01" itemprop="dateModified" datetime="2021-10-17T15:54:01+08:00">2021-10-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E4%B8%8D%E7%AD%89%E5%BC%8F/" itemprop="url" rel="index"><span itemprop="name">不等式</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E4%B8%8D%E7%AD%89%E5%BC%8F/%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">数学竞赛复习笔记</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p>本文为数学竞赛不等式的复习笔记．</p>
+</blockquote>
+<span id="more"></span>
+<h1 id="基础不等式与常用不等式">基础不等式与常用不等式</h1>
+<h2 id="最基本的不等式不等式的根源">最基本的不等式——不等式的根源</h2>
+<h3 id="平方非负性">平方非负性</h3>
+<h4 id="定理">定理</h4>
+<p>对任意实数<span class="math inline">\(x\)</span>​，有<span
+class="math inline">\(x^2\geqslant 0\)</span>​．</p>
+<h5 id="推论">推论</h5>
+<p>对任意实数<span class="math inline">\(a,b\)</span>​，有<span
+class="math inline">\((a-b)^2\geqslant 0\)</span>​​．</p>
+<h5 id="注">注</h5>
+<p>构造类似于推论中的式子是证明某些形式不等式的关键．</p>
+<h3 id="二次函数与一元二次不等式">二次函数与一元二次不等式</h3>
+<h4 id="定理-1">定理</h4>
+<p>若 <span class="math inline">\(a\leqslant c\)</span>，<span
+class="math inline">\(b\leqslant d\)</span>，则<span
+class="math inline">\((a-c)(b-d)\geqslant 0\)</span>​，</p>
+<p>这一定理在带序不等式中有时会用到．</p>
+<h4 id="重要推论">重要推论</h4>
+<p>若 <span class="math inline">\(m\leqslant a\leqslant
+n\)</span>，则<span class="math inline">\((a-m)(a-n)\leqslant
+0\)</span>．</p>
+<p>这一推论在变量有范围的不等式中常见．</p>
+<hr />
+<h2 id="常见的重要不等式">常见的重要不等式</h2>
+<h3 id="定理1二元重要不等式">定理1（二元重要不等式）</h3>
+<p>对任意实数 <span class="math inline">\(a,b\)</span>，有<span
+class="math inline">\(a^2+b^2\geqslant 2ab\)</span>​，当且仅当<span
+class="math inline">\(a=b\)</span>时取等．</p>
+<h4 id="证明">证明</h4>
+<p><span class="math inline">\(LHS\geqslant RHS\Leftrightarrow
+(a-b)^2\geqslant 0.\quad\square\)</span>​​</p>
+<h3 id="定理2三元重要不等式1">定理2（三元重要不等式—1）</h3>
+<p>对任意实数 <span class="math inline">\(a,b,c\)</span>​ ，有<span
+class="math inline">\(a^2+b^2+c^2\geqslant ab+bc+ca\)</span>​，取等条件
+<span class="math inline">\(a=b=c\)</span>．</p>
+<h4 id="证明-1">证明</h4>
+<p>这是因为 <span class="math display">\[
+LHS=\sum_{\text{cyc}}\dfrac{a^2+b^2}{2}\geqslant \sum_{\text{cyc}}ab=RHS
+\]</span></p>
+<p>证毕．<span class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-1">注</h4>
+<p>像这样的拆项构造是代数式处理中的一个常用技巧．</p>
+<h4 id="推论1">推论1</h4>
+<p>对任意实数 <span class="math inline">\(a,b,c\)</span> ，有<span
+class="math inline">\((a+b+c)^2\geqslant 3(ab+bc+ca)\)</span>​，取等条件
+<span class="math inline">\(a=b=c\)</span>．</p>
+<h4 id="推论2">推论2</h4>
+<p>对任意实数 <span class="math inline">\(a,b,c\)</span> ，有<span
+class="math inline">\(3(a^2+b^2+c^2)\geqslant
+(a+b+c)^2\)</span>，取等条件 <span
+class="math inline">\(a=b=c\)</span>．</p>
+<h4 id="推论12的证明">推论1、2的证明</h4>
+<p>这是因为<span
+class="math inline">\((a+b+c)^2=a^2+b^2+c^2+2(ab+bc+ca).\quad\square\)</span></p>
+<h3 id="定理3三元重要不等式2">定理3（三元重要不等式—2）</h3>
+<p>对任意实数 <span class="math inline">\(a,b,c\)</span> ，有<span
+class="math inline">\(a^2+b^2+c^2\geqslant
+-2(ab+bc+ca)\)</span>，取等条件 <span
+class="math inline">\(a+b+c=0\)</span>．</p>
+<h4 id="证明-2">证明</h4>
+<p>这是因为 <span class="math display">\[
+LHS-RHS=(a+b+c)^2\geqslant 0.
+\]</span> 证毕．<span class="math inline">\(\quad\square\)</span></p>
+<h3 id="定理4三元重要不等式3">定理4（三元重要不等式—3）</h3>
+<p>若实数 <span class="math inline">\(a,b,c\)</span> 满足 <span
+class="math inline">\(a+b+c\geqslant 0\)</span>，则<span
+class="math inline">\(a^3+b^3+c^3\geqslant 3abc\)</span>．取等条件为
+<span class="math inline">\(a=b=c\)</span> 或 <span
+class="math inline">\(a+b+c=0\)</span>．</p>
+<h4 id="证明-3">证明</h4>
+<p>由因式分解 <span class="math display">\[
+a^3+b^3+c^3-3abc=(a+b+c)(a^2+b^2+c^2-ab-bc-ca)
+\]</span> 可知得证．<span
+class="math inline">\(\quad\square\)</span>​</p>
+<h3 id="定理5四元重要不等式">定理5（四元重要不等式）</h3>
+<p>对任意实数 <span class="math inline">\(a,b,c,d\)</span>，有<span
+class="math inline">\((a+b+c+d)^2\geqslant
+4(ab+bc+cd+da)\)</span>．取等条件为 <span
+class="math inline">\(a+c=b+d\)</span>．</p>
+<h4 id="证明-4">证明</h4>
+<p>这是因为<span
+class="math inline">\(LHS-RHS=(a-b+c-d)^2.\quad\square\)</span>​</p>
+<h3 id="注-2">注</h3>
+<ul>
+<li>以上定理1、2、5的推广，参见<strong>常用不等式（一）</strong>一节中的<strong>循环乘积和引理</strong>．</li>
+</ul>
+<hr />
+<h2 id="高联五大不等式">高联五大不等式</h2>
+<h3
+id="算术平均-几何平均不等式am-gm不等式">算术平均-几何平均不等式（AM-GM不等式）</h3>
+<p>对任意正实数列 <span class="math inline">\(\{a_n\}\)</span>，有 <span
+class="math display">\[
+\dfrac{a_1+a_2+\cdots+a_n}{n}\geqslant\sqrt[n]{a_1a_2\cdots a_n}
+\]</span> 当且仅当 <span
+class="math inline">\(a_1=a_2=\cdots=a_n\)</span> 时取等．</p>
+<h4 id="证明反向归纳法柯西归纳法">证明（反向归纳法／柯西归纳法）</h4>
+<p>我们先证当 <span class="math inline">\(n=2^k\ (k\in\mathbb
+N)\)</span> 时命题成立．</p>
+<p>用数学归纳法．<span class="math inline">\(k=0\)</span>时显然．</p>
+<p>当 <span class="math inline">\(k=1\)</span> 时，令 <span
+class="math inline">\(a_1=x^2\)</span>，<span
+class="math inline">\(a_2=y^2\)</span>，只需证 <span
+class="math inline">\(x^2+y^2\geqslant
+2xy\)</span>，这由<strong>二元重要不等式</strong>知成立．</p>
+<p>设 <span class="math inline">\(n=2^k\)</span>​​ 时命题成立，则 <span
+class="math inline">\(n=2^{k+1}\)</span>​​ 时 <span
+class="math display">\[
+\begin{aligned}
+LHS&amp;=\dfrac12\left(\dfrac{a_1+a_2+\cdots+a_{2^k}}{2^k}+\dfrac{a_{2^k+1}+a_{2^k+2}+\cdots+a_{n}}{n}\right)\\&amp;\geqslant\dfrac{1}{2}\left(\sqrt[2^k]{a_1a_2\cdots
+a_{2^k}}\cdot\sqrt[2^k]{a_{2^k+1}a_{2^k+2}\cdots
+a_{n}}\right)\\&amp;\geqslant \sqrt[n]{a_1a_2\cdots a_{n}}=RHS.
+\end{aligned}
+\]</span> 由数学归纳法，命题对任意 <span class="math inline">\(n=2^k\
+(k\in\mathbb{N})\)</span> 成立．</p>
+<p>下面证明对一般的正整数 <span
+class="math inline">\(n\)</span>，该不等式都成立．</p>
+<p>不妨设<span class="math inline">\(2^{k-1}&lt;n\leqslant
+2^k\)</span>．当 <span class="math inline">\(n=2^k\)</span>
+时，命题已证明．下设命题对 <span
+class="math inline">\(n=m\in[2^{k-1},\;2^k]\)</span> 成立，当 <span
+class="math inline">\(n=m-1\)</span> 时，由 <span
+class="math display">\[
+\begin{aligned}
+\dfrac{a_1+a_2+\cdots+a_{m-1}+\sqrt[m-1]{a_1a_2\cdots
+a_{m-1}}}{m}&amp;\geqslant\sqrt[m]{a_1^{\frac{m}{m-1}}a_2^{\frac{m}{m-1}}\cdots
+a_{m-1}^{\frac{m}{m-1}}}\\&amp;=\sqrt[m-1]{a_1a_2\cdots a_{m-1}}
+\end{aligned}
+\]</span> 整理即证 <span class="math inline">\(n=m-1\)</span>
+元情形．</p>
+<p>综上，算术平均-几何平均不等式对任意正整数 <span
+class="math inline">\(n\)</span> 都成立．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="推广均值不等式">推广：均值不等式</h4>
+<p>对任意正实数列<span class="math inline">\(\{a_n\}\)</span>​，记 <span
+class="math inline">\(\displaystyle
+Q_n=\sqrt{\dfrac{a_1^2+a_2^2+\cdots+a_n^2}{n}}\)</span>，<span
+class="math inline">\(A_n=\dfrac{a_1+a_2+\cdots+a_n}{n}\)</span>，<span
+class="math inline">\(G_n=\sqrt[n]{a_1a_2\cdots a_n}\)</span>，<span
+class="math inline">\(H_n=\dfrac{n}{\dfrac{1}{a_1}+\dfrac{1}{a_2}+\cdots+\dfrac{1}{a_n}}\)</span>​​，则
+<span class="math display">\[
+Q_n\geqslant A_n\geqslant G_n\geqslant H_n.
+\]</span> 更进一步的推广，参见<strong>幂平均不等式</strong>．</p>
+<hr />
+<h3
+id="柯西施瓦茨不等式cauchy-schwarz不等式">柯西—施瓦茨不等式（Cauchy-Schwarz不等式）</h3>
+<p>对任意实数列<span class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span>，有 <span class="math display">\[
+\left(a_1^2+a_2^2+\cdots+a_n^2\right)\left(b_1^2+b_2^2+\cdots+b_n^2\right)\geqslant\left(a_1b_1+a_2b_2+\cdots+a_nb_n\right)^2
+\]</span> 取等条件为<span class="math inline">\(a_n\propto
+b_n\)</span>​．</p>
+<h4 id="证明判别式法">证明（判别式法）</h4>
+<p>考虑二次函数 <span class="math display">\[
+f(x)=(a_1x-b_1)^2+(a_2x-b_2)^2+\cdots+(a_nx-b_n)^2
+\]</span> 显然 <span class="math inline">\(f(x)\)</span>
+至多有一个实根，当且仅当 <span
+class="math inline">\(\dfrac{a_1}{b_1}=\dfrac{a_2}{b_2}=\cdots=\dfrac{a_n}{b_n}\)</span>​
+时有实根．故其判别式 <span class="math display">\[
+\Delta=(2a_1b_1+2a_2b_2+\cdots+2a_nb_n)^2-4(a_1^2+a_2^2+\cdots+a_n^2)(b_1^2+b_2^2+\cdots+b_n^2)\leqslant
+0
+\]</span> 即柯西—施瓦茨不等式得证．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="证明恒等式法">证明（恒等式法）</h4>
+<p>由<strong>拉格朗日恒等式（Lagrange恒等式）</strong>知 <span
+class="math display">\[
+\left(\sum_{i=1}^na_i^2\right)\left(\sum_{i=1}^nb_i\right)=\left(\sum_{i=1}^na_ib_i\right)^2+\sum_{1\leqslant
+i&lt;j\leqslant
+n}(a_ib_j-a_jb_i)^2\geqslant\left(\sum_{i=1}^na_ib_i\right)^2
+\]</span> 显然成立．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-3">注</h4>
+<p>我们在此不打算收录<strong>Hölder法</strong>（尽管这是一种作为证明<strong>赫尔德不等式</strong>的一种简单方便的方法），原因是该方法要求所有数皆为正数，这与本不等式的适用范围不同．</p>
+<p>以下收录柯西—施瓦茨不等式的一些重要推论．部分较简单的推论，参见后文．</p>
+<h4
+id="重要推论1拉东定理radon定理titu引理权方和不等式的二次形式">重要推论1：拉东定理（Radon定理）／Titu引理／权方和不等式的二次形式</h4>
+<p>对任意正实数列 <span class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span> ，有 <span
+class="math display">\[
+\dfrac{a_1^2}{b_1}+\dfrac{a_2^2}{b_2}+\cdots+\dfrac{a_n^2}{b_n}\geqslant\dfrac{(a_1+a_2+\cdots+a_n)^2}{b_1+b_2+\cdots+b_n}
+\]</span> 取等条件为<span class="math inline">\(a_n\propto
+b_n\)</span>．</p>
+<h4
+id="重要推论2柯西不等式应用中的常用结论">重要推论2：柯西不等式应用中的常用结论</h4>
+<p>对任意非负实数列 <span class="math inline">\(\{a_n\}\)</span>，有
+<span
+class="math inline">\(a_1^2+a_2^2+\cdots+a_n^2\geqslant\dfrac{\left(a_1+a_2+\cdots+a_n\right)^2}{n}\)</span>，取等条件为<span
+class="math inline">\(a_1=a_2=\cdots=a_n\)</span>．</p>
+<hr />
+<h3 id="排序不等式">排序不等式</h3>
+<p>设实数列 <span class="math inline">\(\{a_n\}\)</span>​、<span
+class="math inline">\(\{b_n\}\)</span>​​
+非严格同向单调递增（或递减），<span
+class="math inline">\(\{b_n\}\)</span>​ 的一组排列为 <span
+class="math inline">\(\{c_n\}\)</span>​，则 <span class="math display">\[
+a_1b_1+a_2b_2+\cdots+a_nb_n\geqslant
+a_1c_1+a_2c_2+\cdots+a_nc_n\geqslant a_1b_n+a_2b_{n-1}+\cdots+a_nb_1
+\]</span> 取等条件为<span
+class="math inline">\(b_1=b_2=\cdots=b_n\)</span>​．</p>
+<h4 id="证明二次函数法">证明（二次函数法）</h4>
+<p>只证左侧．不妨设 <span class="math inline">\(\pi(i)\)</span> 为满足
+<span class="math inline">\(b_i=c_{\pi(i)}\)</span>​​的整数．</p>
+<p>由题设，注意到对任意<span class="math inline">\(i&lt;j,\
+i&lt;k\in\mathbb N_+\)</span>​， <span class="math display">\[
+0\leqslant (a_k-a_i)(b_j-b_i)=a_kb_j+a_ib_i-a_kb_i-a_ib_j
+\]</span> 这说明若 <span class="math inline">\(\pi(i)=j\)</span>，<span
+class="math inline">\(\pi(k)=i\)</span>​，则将其调整为 <span
+class="math inline">\(\pi(i)=i\)</span>，<span
+class="math inline">\(\pi(k)=j\)</span> 后原式不减．故要求最大，必有
+<span class="math inline">\(\pi(i)=i\)</span> 对任意 <span
+class="math inline">\(i=1,2,\cdots,n\)</span> 成立．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="证明阿贝尔变换abel变换法">证明（阿贝尔变换（Abel变换）法）</h4>
+<p>只考虑递增情形的左侧．对右侧及递减情形，类似可证．</p>
+<p>记<span class="math inline">\(\displaystyle
+S_i=\sum_{i=1}^nb_i\)</span>，<span class="math inline">\(\displaystyle
+T_i=\sum_{i=1}^nc_i\)</span>，则<span class="math inline">\(S_i\leqslant
+T_i\ (i=1,2,\cdots,n-1)\)</span>，<span
+class="math inline">\(S_n=T_n\)</span>．于是由<strong>阿贝尔分部求和公式（Abel分部求和公式）</strong>
+<span class="math display">\[
+\sum_{i=1}^na_ib_i=\sum_{i=1}^nS_i(a_i-a_{i+1})+S_na_n\geqslant\sum_{i=1}^nT_i(a_i-a_{i+1})+T_na_n=\sum_{i=1}^na_ic_i.\quad\square
+\]</span></p>
+<h4 id="注-4">注</h4>
+<p>数学归纳法也可做，此处不再赘述．</p>
+<hr />
+<h3
+id="切比雪夫不等式chebyshev不等式">切比雪夫不等式（Chebyshev不等式）</h3>
+<p>设实数列 <span class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span> 非严格同向单调递增（或递减），则
+<span class="math display">\[
+\dfrac{1}{n}\sum_{i=1}^na_ib_i\geqslant\left(\dfrac{1}{n}\sum_{i=1}^na_i\right)\left(\dfrac{1}{n}\sum_{i=1}^nb_i\right)\geqslant\dfrac{1}{n}\sum_{i=1}^na_ib_{n+1-i}
+\]</span> 取等条件为<span
+class="math inline">\(a_1=a_2=\cdots=a_n\)</span>及<span
+class="math inline">\(b_1=b_2=\cdots=b_n\)</span>​中至少有一个成立．</p>
+<h4 id="证明二次函数法-1">证明（二次函数法）</h4>
+<p>仍然只证左端．注意到对任意<span
+class="math inline">\(i&lt;j\)</span>， <span class="math display">\[
+0\leqslant (a_i-a_j)(b_i-b_j)=a_ib_i+a_jb_j-a_ib_j-a_jb_i
+\]</span> 故 <span class="math display">\[
+\begin{aligned}
+\sum_{i=1}^n\sum_{j=1}^n(a_ib_i+a_jb_j)&amp;\geqslant\sum_{i=1}^n\sum_{j=1}^n(a_ib_j+a_jb_i)
+\\2n\sum_{i=1}^na_ib_i&amp;\geqslant 2\sum_{i=1}^n\sum_{j=1}^na_ib_j\\
+n\sum_{i=1}^na_ib_i&amp;\geqslant\left(\sum_{i=1}^na_i\right)\left(\sum_{i=1}^nb_i\right)
+\end{aligned}
+\]</span> 即左端得证，右端同理．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="证明排序不等式法">证明（排序不等式法）</h4>
+<p>记下标按模 <span class="math inline">\(n\)</span>
+所得的余数记．考虑以下的 <span class="math inline">\(n\)</span>
+个不等式： <span class="math display">\[
+\sum_{i=1}^na_ib_i\geqslant \sum_{i=1}^na_{i}b_{j-1+i}\quad
+(j=1,2,\cdots,n)
+\]</span> 对<span class="math inline">\(j=1,2,\cdots
+n\)</span>求和即证．<span
+class="math inline">\(\quad\square\)</span>​</p>
+<h4 id="注-5">注</h4>
+<ol type="1">
+<li>该不等式的单独运用较少，常常配合<strong>切比雪夫联合技术</strong>使用．有关其使用方法，参见后文．</li>
+<li>事实上，可以证明如下更一般的形式：</li>
+</ol>
+<h4 id="改进的切比雪夫不等式">改进的切比雪夫不等式</h4>
+<p>设实数列<span class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span>满足 <span class="math display">\[
+a_1\geqslant \dfrac{a_1+a_2}{2}\geqslant
+\cdots\geqslant\dfrac{a_1+a_2+\cdots+a_n}{n}
+\]</span></p>
+<p><span class="math display">\[
+b_1\geqslant \dfrac{b_1+b_2}{2}\geqslant
+\cdots\geqslant\dfrac{b_1+b_2+\cdots+b_n}{n}
+\]</span></p>
+<p>则 <span class="math display">\[
+a_1b_1+a_2b_2+\cdots+a_nb_n\geqslant\dfrac{1}{n}(a_1+a_2+\cdots+a_n)(b_1+b_2+\cdots+b_n).
+\]</span></p>
+<h4 id="改进后不等式的证明abel变换">改进后不等式的证明（Abel变换）</h4>
+<p>对于<span class="math inline">\(k=1,2,\cdots, n\)</span>，我们记<span
+class="math inline">\(S_k=a_1+a_2+\cdots+a_k\)</span>，<span
+class="math inline">\(b_{n+1}=0\)</span>，由<strong>Abel分部求和公式</strong>，我们有
+<span class="math display">\[
+\sum_{i=1}^na_ib_i=\sum_{i=1}^n(b_i-b_{i+1})S_i=\sum_{i=1}^ni(b_i-b_{i-1})\dfrac{S_i}{i}
+\]</span> 再用一次<strong>Abel分部求和公式</strong>，我们有</p>
+<p><span class="math display">\[
+\sum_{i=1}^na_ib_i=\dfrac{1}{n}S_n\sum_{i=1}^nb_i+\sum_{i=1}^{n-1}\left(\dfrac{S_{i}}{i}-\dfrac{S_{i+1}}{i+1}\right)\left(\sum_{j=1}^ib_j-ib_{i+1}\right)
+\]</span></p>
+<p>因此，欲证原式，只需证<span class="math inline">\(\displaystyle
+\sum_{i=1}^{n-1}\left(\dfrac{S_{i}}{i}-\dfrac{S_{i+1}}{i+1}\right)\left(\sum_{j=1}^ib_j-(n-1)b_i\right)\geqslant
+0\)</span>．</p>
+<p>由题设，<span
+class="math inline">\(\dfrac{S_{i}}{i}-\dfrac{S_{i+1}}{i+1}\geqslant
+0\)</span>．另一方面，由 <span class="math display">\[
+\dfrac{1}{i}\sum_{j=1}^ib_j\geqslant\dfrac{1}{i+1}\sum_{j=1}^ib_j
+\]</span> 可知<span
+class="math inline">\(\displaystyle\sum_{j=1}^ib_j\geqslant
+ib_{i+1}\)</span>．故欲证式得证．<span
+class="math inline">\(\quad\square\)</span></p>
+<hr />
+<h3 id="绝对值不等式">绝对值不等式</h3>
+<p>设<span class="math inline">\(x,y\in\mathbb C\)</span>．则 <span
+class="math display">\[
+||x|-|y||\leqslant |x+y|\leqslant |x|+|y|.
+\]</span> 左侧等号成立条件是<span
+class="math inline">\(x=-ky\)</span>，<span
+class="math inline">\(k\geqslant 0\)</span>；右侧等号成立条件是<span
+class="math inline">\(x=ky\)</span>，<span
+class="math inline">\(k\geqslant 0\)</span>．</p>
+<h4 id="证明-5">证明</h4>
+<p>由绝对值的定义可证．<span
+class="math inline">\(\quad\square\)</span></p>
+<hr />
+<h2
+id="常用不等式一常用定理及结论">常用不等式（一）：常用定理及结论</h2>
+<h3 id="循环乘积和引理女奥不等式">循环乘积和引理／女奥不等式</h3>
+<p>设 <span class="math inline">\(\{a_n\}\)</span> 为 <span
+class="math inline">\(n\)</span> 项非负实数列，则 <span
+class="math display">\[
+(a_1+a_2+\cdots+a_n)^2\geqslant \min\{n,
+4\}\cdot(a_1a_2+a_2a_3+\cdots+a_{n-1}a_n+a_na_1)
+\]</span> 当<span class="math inline">\(n=2\)</span>或<span
+class="math inline">\(3\)</span>时，取等条件为<span
+class="math inline">\(a_1=a_2=a_3\)</span>；当<span
+class="math inline">\(n=4\)</span>时，取等条件为<span
+class="math inline">\(a_1+a_3=a_2+a_4\)</span>；当<span
+class="math inline">\(n\geqslant 5\)</span>时，取等条件为<span
+class="math inline">\(a_1=a_2\geqslant 0\)</span>，<span
+class="math inline">\(a_3=a_4=\cdots=a_n=0\)</span>​​及其轮换．</p>
+<h4 id="证明-6">证明</h4>
+<p><span
+class="math inline">\(n=2,3,4\)</span>时参见三个重要不等式．以下证明<span
+class="math inline">\(n\geqslant 5\)</span>时命题成立．</p>
+<p>不妨设<span class="math inline">\(\max \{a_n\}=a_1\)</span>．于是
+<span class="math display">\[
+\begin{aligned}
+a_1a_2+a_2a_3+\cdots+a_{n-1}a_n+a_na_1&amp;\leqslant
+a_1(a_2+a_4+a_5+\cdots+a_n)+a_2a_3\\&amp;\leqslant
+a_1(a_2+a_4+a_5+\cdots+a_n)+a_3(a_2+a_4+a_5+\cdots+a_n)\\&amp;=(a_1+a_3)(a_2+a_4+a_5+\cdots+a_n)\\&amp;\leqslant\dfrac{(a_1+a_2+\cdots+a_n)^2}{4}
+\end{aligned}
+\]</span></p>
+<p>证毕．<span class="math inline">\(\quad\square\)</span></p>
+<h3 id="舒尔不等式schur不等式">舒尔不等式（Schur不等式）</h3>
+<p><span
+class="math inline">\(a,b,c\)</span>为非负实数，则对任意实数<span
+class="math inline">\(t\)</span>，有 <span class="math display">\[
+a^t(a-b)(a-c)+b^t(b-a)(b-c)+c^t(c-a)(c-b)\geqslant 0
+\]</span> 当<span class="math inline">\(t\neq 0\)</span>时，取等条件为
+<span class="math inline">\(a=b=c\)</span> 或 <span
+class="math inline">\(a=b&gt;0\)</span>，<span
+class="math inline">\(c=0\)</span>​ 及其轮换；当 <span
+class="math inline">\(t=0\)</span> 时，取等条件为<span
+class="math inline">\(a=b=c\)</span>．</p>
+<h4 id="证明-7">证明</h4>
+<p>记原式为<span class="math inline">\(f\)</span>．由对称性，不妨设<span
+class="math inline">\(a\geqslant b\geqslant c\)</span>，于是<span
+class="math inline">\((a-b)(a-c)\geqslant 0\)</span>，<span
+class="math inline">\((b-a)(b-c)\leqslant 0\)</span>，<span
+class="math inline">\((c-a)(c-b)\geqslant 0\)</span>．</p>
+<p><strong>第一种情况．</strong>若<span
+class="math inline">\(t&gt;0\)</span>​，显然<span
+class="math inline">\(c^t(c-a)(c-b)\)</span>较小，于是 <span
+class="math display">\[
+\begin{aligned}
+f&amp;\geqslant
+a^t(a-b)(a-c)+b^t(b-a)(b-c)\\&amp;=(a-b)(a^t(a-c)-b^t(b-c))\\&amp;\geqslant
+0.
+\end{aligned}
+\]</span> <strong>第二种情况．</strong>若<span
+class="math inline">\(t&lt;0\)</span>，显然<span
+class="math inline">\(a^t(a-b)(a-c)\)</span>较小，于是 <span
+class="math display">\[
+\begin{aligned}
+f&amp;\geqslant
+b^t(b-a)(b-c)+c^t(c-a)(c-b)\\&amp;=(b-c)(b^t(b-a)-c^t(c-a))\\&amp;\geqslant
+0
+\end{aligned}
+\]</span> <strong>第三种情况．</strong>若<span
+class="math inline">\(t=0\)</span>，此时原式即<strong>三元重要不等式-1</strong>．</p>
+<p>综上所述，该不等式对任意的<span class="math inline">\(t\in \mathbb
+R\)</span>都成立．<span class="math inline">\(\quad\square\)</span>​</p>
+<h4 id="注-6">注</h4>
+<ol type="1">
+<li><p>以下为舒尔不等式的一些常用变形：</p>
+<ul>
+<li><span class="math inline">\(\displaystyle
+\sum_{cyc}a^3-\sum_{cyc}a^2(b+c)+3abc\geqslant 0\)</span>；</li>
+<li><span class="math inline">\(\displaystyle
+\left(\sum_{cyc}a\right)^3-4\left(\sum_{cyc}a\right)\left(\sum_{cyc}bc\right)+9abc\geqslant
+0\)</span>．</li>
+</ul>
+<p>第二个不等式是著名的<strong>pqr法</strong>／<strong>uvw法</strong>的根基之一．</p></li>
+<li><p>有关舒尔不等式在四元下的类似情况，参见<strong>常用不等式（五）</strong>一节中的<strong>Turkevich不等式</strong>；对于舒尔不等式的推广，参见<strong>常用不等式（五）</strong>一节中的<strong>Suranyi不等式</strong>．</p></li>
+</ol>
+<h3 id="不等式">9-8不等式</h3>
+<p>已知非负实数 <span class="math inline">\(a,b,c\)</span>，则 <span
+class="math display">\[
+9(a+b)(b+c)(c+a)\geqslant 8(a+b+c)(ab+bc+ca).
+\]</span> 取等条件 <span class="math inline">\(a=b=c\)</span>．</p>
+<h4 id="证明-8">证明</h4>
+<p>两边展开知只需证<span
+class="math inline">\(\displaystyle\sum_{cyc}ab(a+b)\geqslant
+6abc\)</span>，由恒等式 <span class="math display">\[
+\sum_{cyc}ab(a+b)=\sum_{cyc}a(b^2+c^2)
+\]</span> 及均值不等式知成立．<span
+class="math inline">\(\quad\square\)</span></p>
+<h3 id="嵌入不等式">嵌入不等式</h3>
+<p>对任意实数<span class="math inline">\(x,y,z\)</span>及实数<span
+class="math inline">\(A,B,C\)</span>，若<span
+class="math inline">\(A+B+C=\pi\)</span>，则 <span
+class="math display">\[
+x^2+y^2+z^2\geqslant 2yz\cos A+2zx\cos B+2xy\cos C.
+\]</span> 取等条件为<span class="math inline">\(x:y:z=\sin A:\sin B:\sin
+C\)</span>．</p>
+<h4 id="证明-9">证明</h4>
+<p>这是因为 <span class="math display">\[
+LHS-RHS=(x-y\cos C-z\cos B)^2+(y\sin C-z\sin B)^2\geqslant 0.
+\]</span> 证毕．<span class="math inline">\(\quad\square\)</span></p>
+<hr />
+<h2
+id="常用不等式二一元凸凹函数及优超数组相关定理">常用不等式（二）：一元凸（凹）函数及优超数组相关定理</h2>
+<h3
+id="预备知识一元凸凹函数与优超数组">预备知识：一元凸（凹）函数与优超数组</h3>
+<h4 id="一元凸凹函数">一元凸（凹）函数</h4>
+<p>对定义在区间<span
+class="math inline">\([a,b]\)</span>​上的一个函数<span
+class="math inline">\(f(x)\)</span>​，如果对任意正实数<span
+class="math inline">\(x\in[a,b]\)</span>​​，都有 <span
+class="math display">\[
+f(a)+f(b)\geqslant 2f(x)
+\]</span> 则称<span
+class="math inline">\(f(x)\)</span>​为<strong>非严格凸函数</strong>．若去掉等号，则称<span
+class="math inline">\(f(x)\)</span>​为<strong>严格凸函数</strong>．​</p>
+<p>对定义在区间<span
+class="math inline">\([a,b]\)</span>​上的一个函数<span
+class="math inline">\(f(x)\)</span>​，如果对任意正实数<span
+class="math inline">\(x\in[a,b]\)</span>​​，都有 <span
+class="math display">\[
+f(a)+f(b)\leqslant 2f(x)
+\]</span> 则称<span
+class="math inline">\(f(x)\)</span>为<strong>非严格凹函数</strong>．若去掉等号，则称<span
+class="math inline">\(f(x)\)</span>​为<strong>严格凹函数</strong>．​</p>
+<p>以下是凸（凹）函数的一些性质：</p>
+<ol type="1">
+<li><p>若<span class="math inline">\(f(x)\)</span>在区间<span
+class="math inline">\([a,b]\)</span>上可求二阶导，则<span
+class="math inline">\(f(x)\)</span>​为凸函数的充要条件是 <span
+class="math display">\[
+f&#39;&#39;(x)\geqslant 0.
+\]</span> 若<span class="math inline">\(f(x)\)</span>在区间<span
+class="math inline">\([a,b]\)</span>上可求二阶导，则<span
+class="math inline">\(f(x)\)</span>​为凹函数的充要条件是 <span
+class="math display">\[
+f&#39;&#39;(x)\leqslant 0.
+\]</span></p></li>
+<li><p>若函数<span class="math inline">\(f(x)\)</span>为定义在<span
+class="math inline">\([a,b]\)</span>上的凸函数，则对任意<span
+class="math inline">\(x,y\in[a,b]\)</span>，有 <span
+class="math display">\[
+f(x)+f(y)\geqslant 2f\left(\dfrac{x+y}{2}\right).
+\]</span> 若函数<span class="math inline">\(f(x)\)</span>为定义在<span
+class="math inline">\([a,b]\)</span>上的凹函数，则对任意<span
+class="math inline">\(x,y\in[a,b]\)</span>，有 <span
+class="math display">\[
+f(x)+f(y)\leqslant 2f\left(\dfrac{x+y}{2}\right).
+\]</span> 取等条件为<span class="math inline">\(x=y\)</span>​．</p></li>
+<li><p>若函数<span class="math inline">\(f(x)\)</span>为定义在<span
+class="math inline">\([a,b]\)</span>上的凸函数，则对任意<span
+class="math inline">\(x_0\in[a,b]\)</span>，设<span
+class="math inline">\(y=g(x)\)</span>为<span
+class="math inline">\(f(x)\)</span>在<span
+class="math inline">\(x_0\)</span>处的切线，则对任意<span
+class="math inline">\(x\in [a,b]\)</span>， <span
+class="math display">\[
+f(x)\geqslant g(x).
+\]</span> 取等条件为<span class="math inline">\(x=x_0\)</span>．</p>
+<p>若函数<span class="math inline">\(f(x)\)</span>为定义在<span
+class="math inline">\([a,b]\)</span>上的凹函数，则对任意<span
+class="math inline">\(x_0\in[a,b]\)</span>，设<span
+class="math inline">\(y=g(x)\)</span>为<span
+class="math inline">\(f(x)\)</span>在<span
+class="math inline">\(x_0\)</span>处的切线，则对任意<span
+class="math inline">\(x\in [a,b]\)</span>， <span
+class="math display">\[
+f(x)\leqslant g(x).
+\]</span> 取等条件为<span
+class="math inline">\(x=x_0\)</span>．</p></li>
+</ol>
+<h4 id="优超数组">优超数组</h4>
+<p>如果<span class="math inline">\(n\)</span>​项数组<span
+class="math inline">\(A=(a_1,a_2,\cdots,a_n)\)</span>、<span
+class="math inline">\(B=(b_1,b_2,\cdots,b_n)\)</span>​​满足</p>
+<ol type="1">
+<li><span class="math inline">\(a_1\geqslant a_2\geqslant
+\cdots\geqslant a_n\)</span>​，<span class="math inline">\(b_1\geqslant
+b_2\geqslant \cdots\geqslant b_n\)</span>​​；</li>
+<li>对任意<span class="math inline">\(m=1,2,\cdots,n-1\)</span>​​，有<span
+class="math inline">\(\displaystyle\sum_{i=1}^ma_i\geqslant\sum_{i=1}^mb_i\)</span>；</li>
+<li><span class="math inline">\(\displaystyle
+\sum_{i=1}^na_i=\sum_{i=1}^nb_i\)</span>​．</li>
+</ol>
+<p>则称数组<span class="math inline">\(A\)</span>优超于数列<span
+class="math inline">\(B\)</span>，记作<span class="math inline">\(A\succ
+B\)</span>．</p>
+<p>很容易看出，如果取<span
+class="math inline">\(A=(1,1,\cdots,1)\)</span>，则<span
+class="math inline">\(B\)</span>与凸函数相像；取<span
+class="math inline">\(B=(1,1,\cdots,1)\)</span>，则<span
+class="math inline">\(A\)</span>与凹函数有类似之处．</p>
+<h3 id="琴生不等式jensen不等式">琴生不等式（Jensen不等式）</h3>
+<p>若函数<span class="math inline">\(f(x)\)</span>是定义在区间<span
+class="math inline">\([a,b]\)</span>上的凸函数，则对任意<span
+class="math inline">\(x_1,x_2,\cdots,x_n\in [a,b]\)</span>有 <span
+class="math display">\[
+f(x_1)+f(x_2)+\cdots+f(x_n)\geqslant
+f\left(\dfrac{x_1+x_2+\cdots+x_n}{n}\right).
+\]</span> 取等条件为<span
+class="math inline">\(x_1=x_2=\cdots=x_n\)</span>，</p>
+<p>若函数<span class="math inline">\(f(x)\)</span>是定义在区间<span
+class="math inline">\([a,b]\)</span>上的凹函数，则对任意<span
+class="math inline">\(x_1,x_2,\cdots,x_n\in [a,b]\)</span>有 <span
+class="math display">\[
+f(x_1)+f(x_2)+\cdots+f(x_n)\leqslant
+f\left(\dfrac{x_1+x_2+\cdots+x_n}{n}\right).
+\]</span> 取等条件为<span
+class="math inline">\(x_1=x_2=\cdots=x_n\)</span>，</p>
+<h4 id="证明-10">证明</h4>
+<p>用类似于均值不等式的反向归纳法可证．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-7">注</h4>
+<ol type="1">
+<li>理论上，所有的琴生不等式都可改写为<strong>切线法</strong>；参见<strong>常用技巧</strong>一章．</li>
+<li>加权形式可参见如下：</li>
+</ol>
+<h3
+id="加权琴生不等式加权jensen不等式">加权琴生不等式（加权Jensen不等式）</h3>
+<p>若函数<span class="math inline">\(f(x)\)</span>是定义在区间<span
+class="math inline">\([a,b]\)</span>上的凸函数，则对任意<span
+class="math inline">\(x_1,x_2,\cdots,x_n\in [a,b]\)</span>及和为<span
+class="math inline">\(1\)</span>的正实数<span
+class="math inline">\(\lambda_1,\lambda_2,\cdots,\lambda_n\)</span>有
+<span class="math display">\[
+f(\lambda_1x_1)+f(\lambda_2x_2)+\cdots+f(\lambda_nx_n)\geqslant
+f\left(\lambda_1x_1+\lambda_2x_2+\cdots+\lambda_nx_n\right).
+\]</span> 取等条件为<span
+class="math inline">\(x_1=x_2=\cdots=x_n\)</span>，</p>
+<p>若函数<span class="math inline">\(f(x)\)</span>是定义在区间<span
+class="math inline">\([a,b]\)</span>上的凹函数，则对任意<span
+class="math inline">\(x_1,x_2,\cdots,x_n\in [a,b]\)</span>及和为<span
+class="math inline">\(1\)</span>的正实数<span
+class="math inline">\(\lambda_1,\lambda_2,\cdots,\lambda_n\)</span>有
+<span class="math display">\[
+f(\lambda_1x_1)+f(\lambda_2x_2)+\cdots+f(\lambda_nx_n)\leqslant
+f\left(\lambda_1x_1+\lambda_2x_2+\cdots+\lambda_nx_n\right).
+\]</span> 取等条件为<span
+class="math inline">\(x_1=x_2=\cdots=x_n\)</span>，</p>
+<h4 id="证明-11">证明</h4>
+<p>同琴生不等式．<span class="math inline">\(\quad\square\)</span></p>
+<h3
+id="卡拉玛特不等式karamata不等式优超不等式">卡拉玛特不等式（Karamata不等式）／优超不等式</h3>
+<p>已知数组<span
+class="math inline">\(A=(a_1,a_2,\cdots,a_n)\)</span>​，<span
+class="math inline">\(B=(b_1,b_2,\cdots,b_n)\)</span>​满足<span
+class="math inline">\(A\succ B\)</span>​，<span
+class="math inline">\(f(x)\)</span>​为定义在<span
+class="math inline">\([m,M]\)</span>​中的凸函数，且<span
+class="math inline">\(m\leqslant a_i, b_i\leqslant M\)</span>，则 <span
+class="math display">\[
+f(a_1)+f(a_2)+\cdots+f(a_n)\geqslant f(b_1)+f(b_2)+\cdots+f(b_n).
+\]</span> 已知数组<span
+class="math inline">\(A=(a_1,a_2,\cdots,a_n)\)</span>​，<span
+class="math inline">\(B=(b_1,b_2,\cdots,b_n)\)</span>​满足<span
+class="math inline">\(A\succ B\)</span>​，<span
+class="math inline">\(f(x)\)</span>​为定义在<span
+class="math inline">\([m,M]\)</span>​中的凹函数，且<span
+class="math inline">\(m\leqslant a_i, b_i\leqslant M\)</span>，则 <span
+class="math display">\[
+f(a_1)+f(a_2)+\cdots+f(a_n)\leqslant f(b_1)+f(b_2)+\cdots+f(b_n).
+\]</span> 等号成立条件为<span
+class="math inline">\(a_i=b_i\)</span>​，<span
+class="math inline">\(i=1,2,\cdots,n\)</span>​．</p>
+<h4 id="证明-12">证明</h4>
+<p>只证凸函数情形．凹函数情形同理可证．</p>
+<p>记<span class="math inline">\(\displaystyle S_k=\sum_{i=1}^n
+(a_i-b_i)\)</span>​​​．由<strong>Abel和差变换公式</strong>，我们有 <span
+class="math display">\[
+\begin{aligned}
+\sum_{i=1}^n(f(a_i)-f(b_i))&amp;=\sum_{i=1}^n(a_i-b_i)\dfrac{f(a_i)-f(b_i)}{a_i-b_i}\\&amp;=S_n(f(a_n)-f(b_n))+\sum_{i=1}^{n-1}S_n\left(\dfrac{f(a_i)-f(b_i)}{a_i-b_i}-\dfrac{f(a_{i+1})-f(b_{i+1})}{a_{i+1}-b_{i+1}}\right)
+\end{aligned}
+\]</span> 由凸函数性质，<span
+class="math inline">\(\dfrac{f(a_i)-f(b_i)}{a_i-b_i}\geqslant
+\dfrac{f(a_{i+1})-f(b_i)}{a_{i+1}-b_i}\geqslant
+\dfrac{f(a_{i+1})-f(b_{i+1})}{a_{i+1}-b_{i+1}}\)</span>​，故上式不小于<span
+class="math inline">\(0\)</span>​．故原不等式成立．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-8">注</h4>
+<ol type="1">
+<li>Karamata不等式看似不常见，其实在一些特殊的调整方法中经常见到：例如将整个式子看作关于某个变量的开口朝上的二次函数，然后调整到<span
+class="math inline">\(0\)</span>​​或一定值．这即是Karamata不等式的常见运用方法．因此，该不等式事实上是一个很重要的不等式．</li>
+</ol>
+<h3
+id="穆尔海德不等式米尔赫德不等式muirhead不等式">穆尔海德不等式／米尔赫德不等式（Muirhead不等式）</h3>
+<p>已知正实数数列<span class="math inline">\(\{a_n\}\)</span>、数组<span
+class="math inline">\(A=(x_1,x_2,\cdots,x_n)\)</span>、<span
+class="math inline">\(B=(y_1,y_2,\cdots,y_n)\)</span>满足<span
+class="math inline">\(A\succ B\)</span>，则 <span
+class="math display">\[
+\sum_{sym}a_1^{x_1}a_2^{x_2}\cdots a_n^{x_n}\geqslant
+\sum_{sym}a_1^{y_1}a_2^{y_2}\cdots a_n^{y_n}.
+\]</span></p>
+<h4 id="证明-13">证明</h4>
+<h5 id="引理">引理</h5>
+<p>若数列<span class="math inline">\(\{c_i\}\)</span>满足<span
+class="math inline">\(\displaystyle \sum_{i=1}^nc_i=0\)</span>，<span
+class="math inline">\(\{x_i\}\)</span>为正实数列，则<span
+class="math inline">\(\displaystyle \sum_{sym}x_1^{c_1}x_2^{c_2}\cdots
+x_n^{c_n}\geqslant n!\)</span>．</p>
+<h5 id="引理的证明">引理的证明</h5>
+<p>由均值不等式，<span class="math inline">\(\displaystyle
+\dfrac{\displaystyle \sum_{sym}x_1^{c_1}x_2^{c_2}\cdots
+x_n^{c_n}}{n!}\geqslant \sqrt[n!]{\prod_{sym}x_1^{c_1}x_2^{c_2}\cdots
+x_n^{c_n}}=1\)</span>．即证．</p>
+<h5 id="回到原题">回到原题</h5>
+<p>记<span class="math inline">\(c_i=a_i-b_i\)</span>，则<span
+class="math inline">\(\displaystyle\sum_{i=1}^n
+c_i=0\)</span>，由引理<span class="math inline">\(\displaystyle
+\sum_{sym}x_1^{c_1}x_2^{c_2}\cdots x_n^{c_2}-n!\geqslant
+0\)</span>．于是 <span class="math display">\[
+\begin{aligned}
+LHS-RHS&amp;=\sum_{cyc}\left(\prod_{i=1}^nx_i^{b_i+c_i}-\prod_{i=1}^nx_i^{c_i}\right)\\&amp;=\left(\sum_{sym}\prod_{i=1}^nx_i^{b_i}\right)\left(\sum_{sym}(x_1^{c_1}x_2^{c_2}\cdots
+x_n^{c_n}-1)\right)\\&amp;\geqslant 0.
+\end{aligned}
+\]</span> 证毕．<span class="math inline">\(\quad\square\)</span></p>
+<hr />
+<h2
+id="常用不等式三加权类指对数类">常用不等式（三）：加权类、指对数类</h2>
+<h3 id="杨氏不等式young不等式">杨氏不等式（Young不等式）</h3>
+<p><span class="math inline">\(a,b\)</span>为非负实数，<span
+class="math inline">\(p&gt;1\)</span>，<span
+class="math inline">\(\dfrac1p+\dfrac1q=1\)</span>，则 <span
+class="math display">\[
+ab\leqslant \dfrac{a^p}{p}+\dfrac{b^q}{q}.
+\]</span> 取等条件为<span class="math inline">\(a^p=b^q\)</span>．</p>
+<h4 id="证明导数法">证明（导数法）</h4>
+<p>考虑以<span class="math inline">\(b\)</span>为主元的函数<span
+class="math inline">\(f(b)=\dfrac{a^p}{p}+\dfrac{b^q}{q}-ab\)</span>，则<span
+class="math inline">\(f&#39;(b)=b^{q-1}-a\)</span>，当且仅当<span
+class="math inline">\(a^p=b^q\)</span>时取等最小值<span
+class="math inline">\(0\)</span>．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="证明琴生法">证明（琴生法）</h4>
+<p>注意函数<span class="math inline">\(f(x)=\log x\)</span>
+为凹函数且单调递增，由<strong>加权琴生不等式</strong> <span
+class="math display">\[
+\log\left(\dfrac{a^p}{p}+\dfrac{b^q}{q}\right)\geqslant \dfrac{1}{p}\log
+a^p+\dfrac{1}{q}\log a^q=\log ab.
+\]</span> 证毕．<span class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-9">注</h4>
+<ol type="1">
+<li><p>本不等式是<strong>杨格积分不等式／Young积分不等式</strong>的一个特例．原不等式为：</p>
+<p>若<span
+class="math inline">\(f(x)\)</span>为在定义域内严格单调递增且过原点的函数，<span
+class="math inline">\(a,b\geqslant 0\)</span>，则 <span
+class="math display">\[
+ab\leqslant\int_0^af(x)\mathrm dx+\int_0^bf^{-1}(x)\mathrm dx
+\]</span> 等号成立条件为<span
+class="math inline">\(b=f(a)\)</span>．</p></li>
+<li><p>本不等式可以看作<strong>加权算术平均-几何平均不等式</strong>的一个特例．</p></li>
+</ol>
+<h3
+id="加权算术平均-几何平均不等式加权am-gm不等式">加权算术平均-几何平均不等式（加权AM-GM不等式）</h3>
+<p>对任意正实数列 <span
+class="math inline">\(\{a_n\}\)</span>及和为<span
+class="math inline">\(1\)</span>的正实数<span
+class="math inline">\(\lambda_1,\lambda_2,\cdots,\lambda_n\)</span>，有
+<span class="math display">\[
+\lambda_1a_1+\lambda_2a_2+\cdots+\lambda_na_n\geqslant
+a_1^{\lambda_1}a_2^{\lambda_2}\cdots a_n^{\lambda_n}
+\]</span> 当且仅当 <span
+class="math inline">\(a_1=a_2=\cdots=a_n\)</span> 时取等．</p>
+<h4 id="证明-14">证明</h4>
+<p>注意到<span class="math inline">\(f(x)=\log
+x\)</span>为凹函数，由<strong>加权琴生不等式</strong>得 <span
+class="math display">\[
+\begin{aligned}
+\log(\lambda_1a_1+\lambda_2a_2+\cdots+\lambda_na_n)&amp;\geqslant
+\lambda_1\log(a_1)+\lambda_2\log(a_2)+\cdots+\lambda_n\log(a_n)\\&amp;=\log
+a_1^{\lambda_1}a_2^{\lambda_2}\cdots a_n^{\lambda_n}.
+\end{aligned}
+\]</span> 证毕．<span class="math inline">\(\quad\square\)</span></p>
+<h3
+id="伯努利不等式bernoulli不等式">伯努利不等式（Bernoulli不等式）</h3>
+<p>已知实数<span class="math inline">\(x&gt;-1\)</span>，则当<span
+class="math inline">\(n\geqslant 1\)</span>时， <span
+class="math display">\[
+(1+x)^n\geqslant 1+nx
+\]</span> 当<span class="math inline">\(0&lt;n&lt;1\)</span>时 <span
+class="math display">\[
+(1+x)^n\leqslant 1+nx.
+\]</span> 取等条件是<span class="math inline">\(x=0\)</span>或<span
+class="math inline">\(n=0,1\)</span>．</p>
+<p>当<span class="math inline">\(x&lt;-1\)</span>时，不等号反向．</p>
+<h4 id="证明切线法">证明（切线法）</h4>
+<p>记函数<span class="math inline">\(f(x)=(1+x)^n\)</span>，注意到<span
+class="math inline">\(f(x)\)</span>是凸函数，在<span
+class="math inline">\(x_0\)</span>处切线为<span
+class="math inline">\(y=1+nx\)</span>，由凸函数性质即证．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-10">注</h4>
+<ol type="1">
+<li>在数学竞赛中，用切线法即可；但若要严格证明还是应当使用<strong>数学归纳法及极限法</strong>．因为在求切线的过程中需要用到此定理．</li>
+<li>在竞赛中，该不等式常用于数论而非代数，主要原因是正整数正因子个数的表达式．</li>
+</ol>
+<h3
+id="广义伯努利不等式广义bernoulli不等式">广义伯努利不等式（广义Bernoulli不等式）</h3>
+<p>已知实数<span
+class="math inline">\(x_1,x_2,\cdots,x_n&gt;-1\)</span>且同号，则 <span
+class="math display">\[
+1+x_1+x_2+\cdots+x_n\leqslant(1+x_1)(1+x_2)\cdots(1+x_n).
+\]</span> 取等条件为<span
+class="math inline">\(x_1=x_2=\cdots=x_n=0\)</span>．</p>
+<h4 id="证明数学归纳法">证明（数学归纳法）</h4>
+<p>当<span class="math inline">\(n=2\)</span>时，即证<span
+class="math inline">\((1+x_1)(1+x_2)\geqslant
+1+x_1+x_2\)</span>，即<span class="math inline">\(x_1x_2\geqslant
+0\)</span>，由同号即证．</p>
+<p>设若命题对<span class="math inline">\(n\)</span>成立，则对<span
+class="math inline">\(n+1\)</span>时， <span class="math display">\[
+RHS\geqslant (1+x_1+x_2+\cdots+x_n)(1+x_{n+1})\geqslant
+1+x_1+x_2+\cdots+x_{n+1}
+\]</span> 其中，后一个等号是<span
+class="math inline">\(n=2\)</span>情形．</p>
+<p>综上，该不等式得证．<span
+class="math inline">\(\quad\square\)</span></p>
+<hr />
+<h2 id="常用不等式四类柯西不等式">常用不等式（四）：类柯西不等式</h2>
+<p>以下的三个不等式是<strong>柯西不等式</strong>的重要推广形式．</p>
+<h3
+id="卡尔松不等式carlson不等式广义赫尔德不等式的齐次形式">卡尔松不等式（Carlson不等式）／广义赫尔德不等式的齐次形式</h3>
+<p>对非负实数数表<span class="math inline">\(\{x_{m,n}\}\)</span>，有：
+<span class="math display">\[
+\prod_{i=1}^m\sum_{j=1}^nx_{i,j}^m\geqslant
+\left(\sum_{j=1}^n\prod_{i=1}^m x_{i,j}\right)^m.
+\]</span> 取等条件是<span class="math inline">\(x_{1,n}\propto
+x_{2,n}\propto\cdots x_{m,n}\)</span>．</p>
+<h4 id="证明赫尔德法hölder法">证明（赫尔德法／Hölder法）</h4>
+<p>由均值不等式， <span class="math display">\[
+\dfrac{x_{1,j}^m}{\displaystyle
+\sum_{j=1}^nx_{1,j}^m}+\dfrac{x_{2,j}^m}{\displaystyle
+\sum_{j=1}^nx_{2,j}^m}+\cdots+\dfrac{x_{m,j}^m}{\displaystyle
+\sum_{j=1}^nx_{m,j}^m}\geqslant m\cdot\dfrac{\displaystyle \prod_{i=1}^m
+x_{i,j}}{\displaystyle \sqrt{\prod_{i=1}^m\sum_{j=1}^nx_{i,j}^m}}
+\]</span> 对<span
+class="math inline">\(j=1,2,\cdots,n\)</span>求和即可．<span
+class="math inline">\(\quad\square\)</span></p>
+<h3
+id="赫尔德不等式hölder不等式广义赫尔德不等式的两组变元形式">赫尔德不等式（Hölder不等式）／广义赫尔德不等式的两组变元形式</h3>
+<p>对任意正实数列<span class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span>及满足<span
+class="math inline">\(\dfrac1p+\dfrac1q=1\)</span>的正实数<span
+class="math inline">\(p,q\)</span>，有 <span class="math display">\[
+\left(a_1^p+a_2^p+\cdots+a_n^p\right)^{\frac{1}{p}}\left(b_1^q+b_2^q+\cdots+b_n^q\right)^{\frac{1}{q}}\geqslant
+a_1b_1+a_2b_2+\cdots+a_nb_n
+\]</span> 取等条件为<span class="math inline">\(a_n^p\propto
+b_n^q\)</span>​．</p>
+<h4 id="证明赫尔德法">证明（赫尔德法）</h4>
+<p>由<strong>杨氏不等式</strong>，我们有 <span class="math display">\[
+\dfrac{a_ib_i}{(a_1^p+a_2^p+\cdots+a_n^p)^{\frac{1}{p}}(b_1^p+b_2^p+\cdots+b_n^p)^\frac{1}{q}}\leqslant
+\dfrac{a_i^p}{p(a_1^p+a_2^p+\cdots+a_n^p)}+\dfrac{b_i^q}{q(b_1^q+b_2^q+\cdots+b_n^p)}
+\]</span> 两边对<span
+class="math inline">\(i=1,2,\cdots,n\)</span>求和即证．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-11">注</h4>
+<ol type="1">
+<li><p>事实上，赫尔德不等式最常用的形式是：</p>
+<p>对任意正实数列<span class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span>及满足<span
+class="math inline">\(\dfrac1p+\dfrac1q=1\)</span>的正实数<span
+class="math inline">\(p,q\)</span>，有 <span class="math display">\[
+\left(a_1^p+a_2^p+\cdots+a_n^p\right)^q\left(b_1^q+b_2^q+\cdots+b_n^q\right)^p\geqslant
+(a_1b_1+a_2b_2+\cdots+a_nb_n)^{pq}.
+\]</span></p></li>
+</ol>
+<h3
+id="广义赫尔德不等式广义hölder不等式">广义赫尔德不等式（广义Hölder不等式）</h3>
+<p>对非负实数数表<span
+class="math inline">\(\{x_{m,n}\}\)</span>及正实数列<span
+class="math inline">\(\{p_n\}\)</span>，若<span
+class="math inline">\(\dfrac{1}{p_1}+\dfrac{1}{p_2}+\cdots+\dfrac{1}{p_n}=1\)</span>，则
+<span class="math display">\[
+\prod_{i=1}^m\left(\sum_{j=1}^nx_{i,j}^{p_i}\right)^{\frac{1}{p_i}}\geqslant
+\sum_{j=1}^n\prod_{i=1}^m x_{i,j}.
+\]</span> 取等条件<span class="math inline">\(x_{1,n}^{p_1}\propto
+x_{2,n}^{p_2}\propto\cdots x_{m,n}^{p_n}\)</span>．</p>
+<h4 id="证明赫尔德法-1">证明（赫尔德法）</h4>
+<p>由<strong>加权均值不等式</strong>，我们有 <span
+class="math display">\[
+\dfrac{\displaystyle\prod_{i=1}^nx_{i,j}}{\displaystyle
+\prod_{i=1}^m\left(\sum_{j=1}^nx_{i,j}^{p_i}\right)^{\frac{1}{p_i}}}\leqslant
+\sum_{i=1}^m\dfrac{x_{i,j}^{p_i}}{\displaystyle
+p_i\sum_{k=1}^nx_{i,k}^{p_i}}
+\]</span> 对<span
+class="math inline">\(j=1,2,\cdots,n\)</span>求和即证．</p>
+<h4 id="对以上三个不等式的注释">对以上三个不等式的注释</h4>
+<ol type="1">
+<li>以上的三个不等式，一般统称<strong>赫尔德不等式</strong>，是柯西不等式的推广形式．一般而言，<strong>卡尔松不等式</strong>是用得最多的，也是最好证的：另两个不等式要用别的引理，而卡尔松不等式只需用均值即可；</li>
+<li>以上用均值凑<span
+class="math inline">\(1\)</span>的方法在三个不等式中都有应用，我们在此称之为<strong>赫尔德法</strong>．该方法在面对正实数问题中有时有用处，但在实数类问题中用处就不大了．</li>
+</ol>
+<hr />
+<p>以下的几个不等式，是以上三个不等式的重要推论．</p>
+<h3 id="权方和不等式">权方和不等式</h3>
+<p>对任意正实数<span class="math inline">\(m\)</span>及正实数列<span
+class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span>，有 <span class="math display">\[
+\dfrac{(a_1+a_2+\cdots+a_n)^{m+1}}{(b_1+b_2+\cdots+b_n)^m}\leqslant
+\dfrac{a_1^{m+1}}{b_1^m}+\dfrac{a_2^{m+1}}{b_2^m}+\cdots+\dfrac{a_n^{m+1}}{b_n^m}.
+\]</span> 取等条件<span class="math inline">\(a_i\propto
+b_i\)</span>．</p>
+<h4 id="证明-15">证明</h4>
+<p>由<strong>赫尔德不等式</strong>，我们有 <span class="math display">\[
+(a_1+a_2+\cdots+a_n)^{m+1}\leqslant(b_1+b_2+\cdots+b_n)^m\left(\dfrac{a_1^{m+1}}{b_1^m}+\dfrac{a_2^{m+1}}{b_2^m}+\cdots+\dfrac{a_n^{m+1}}{b_n^m}\right)
+\]</span> 即证．<span class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-12">注</h4>
+<ol type="1">
+<li>事实上，以上的不等式有推广：若<span
+class="math inline">\(m(m+1)&gt;0\)</span>，则原式中「<span
+class="math inline">\(\leqslant」\)</span>号成立；若<span
+class="math inline">\(m(m+1)=0\)</span>，则「<span
+class="math inline">\(=\)</span>」号成立；若<span
+class="math inline">\(m(m+1)&lt;0\)</span>，则「$$」号成立．用同样的方法即可证明．</li>
+</ol>
+<h3 id="幂平均不等式">幂平均不等式</h3>
+<p>定义多元函数 <span class="math display">\[
+M_p(x_1,x_2,\cdots,x_n)=\begin{cases}\sqrt[p]{\dfrac{x_1^p+x_2^p+\cdots+x_n^p}{n}},&amp;p\neq
+0\\\sqrt[n]{x_1x_2\cdots x_n},&amp;p=0\end{cases}
+\]</span> 为<strong>幂平均函数</strong>．则对任意非负实数列<span
+class="math inline">\(\{x_n\}\)</span>及实数<span
+class="math inline">\(p&gt;q\)</span>，我们有 <span
+class="math display">\[
+M_p(x_1,x_2,\cdots,x_n)\geqslant M_q(x_1,x_2,\cdots,x_n)
+\]</span> 取等条件为<span
+class="math inline">\(x_1=x_2=\cdots=x_n\)</span>．</p>
+<h4 id="证明-16">证明</h4>
+<p>当<span
+class="math inline">\(pq=0\)</span>时，此时由<strong>均值不等式</strong>易证．</p>
+<p>下设<span class="math inline">\(pq\neq 0\)</span>．此时只需证 <span
+class="math display">\[
+(x_1^p+x_2^p+\cdots+x_n^p)^q(\underbrace{1+1+\cdots+1}_{n\text{个}1})^{p-q}\geqslant
+(x_1^q+x_2^q+\cdots+x_n^q)^p
+\]</span> 由<strong>赫尔德不等式</strong>即证．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-13">注</h4>
+<ol type="1">
+<li>很容易看出，该不等式是<strong>均值不等式</strong>的一个推广．</li>
+</ol>
+<h3
+id="闵可夫斯基不等式minkowski不等式三角形不等式">闵可夫斯基不等式（Minkowski不等式）／三角形不等式</h3>
+<p>对任意非负实数列<span class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span>及正实数<span
+class="math inline">\(p\)</span>，有 <span class="math display">\[
+\left(\sum_{i=1}^n(a_i+b_i)^p\right)^{\frac{1}{p}}\leqslant
+\left(\sum_{i=1}^na_i^p\right)^\frac{1}{p}+\left(\sum_{i=1}^nb_i^p\right)^\frac{1}{p}.
+\]</span> 取等条件<span class="math inline">\(a_i\propto
+b_i\)</span>．</p>
+<h4 id="证明-17">证明</h4>
+<p>由<strong>赫尔德不等式</strong>， <span class="math display">\[
+\begin{aligned}
+\sum_{i=1}^n(a_i+b_i)^p&amp;=\sum_{i=1}^n((a_i+b_i)^{p-1}a_i+(a_i+b_i)^{p-1}b_i)\\&amp;\leqslant
+\left(\sum_{i=1}^n(a_i+b_i)^p\right)^\frac{p-1}{p}\left(\sum_{i=1}^na_i^p\right)^\frac{1}{p}+\left(\sum_{i=1}^n(a_i+b_i)^p\right)^\frac{p-1}{p}\left(\sum_{i=1}^nb_i^p\right)^\frac{1}{p}
+\end{aligned}
+\]</span> 即证．<span class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-14">注</h4>
+<ol type="1">
+<li>当<span class="math inline">\(p=2\)</span>时，本题就化为<span
+class="math inline">\(n\)</span>维欧式空间中的<strong>三角形不等式</strong>．事实上，该不等式即为<span
+class="math inline">\(L_p\)</span>空间上的三角形不等式．</li>
+<li>用数学归纳法，很易将其推广到数表形式．这里略．</li>
+</ol>
+<hr />
+<p>以下的几个不等式是以上不等式的反向形式．</p>
+<h3 id="范数不等式">范数不等式</h3>
+<p>对非负实数列<span class="math inline">\(\{x_n\}\)</span>，记函数<span
+class="math inline">\(\displaystyle
+S_p(x_1,x_2,\cdots,x_n)=\left(\sum_{i=1}^n
+x_i^p\right)^\frac{1}{p}\)</span>，则对任意<span
+class="math inline">\(r&gt;s&gt;0\)</span>，有 <span
+class="math display">\[
+S_r(x_1,x_2,\cdots,x_n)\leqslant S_s(x_1,x_2,\cdots,x_n).
+\]</span></p>
+<h4 id="证明-18">证明</h4>
+<p>不妨设<span
+class="math inline">\(a_1^s+a_2^s+\cdots+a_n^s=1\)</span>，，则<span
+class="math inline">\(a_i\in[0,1]\)</span>．只需证<span
+class="math inline">\(a_1^r+a_2^r+\cdots+a_n^r\leqslant 1\)</span>．</p>
+<p>由<span class="math inline">\(a_i^r\leqslant
+a_i^s\)</span>，这是显然的．<span
+class="math inline">\(\quad\square\)</span></p>
+<h3
+id="康托洛维奇不等式kantorovich不等式">康托洛维奇不等式（Kantorovich不等式）</h3>
+<p>非负实数列<span class="math inline">\(\{a_n\}\)</span>不全为<span
+class="math inline">\(0\)</span>，<span
+class="math inline">\(\{\lambda_n\}\)</span>为正实数列，<span
+class="math inline">\(M=\max \{\lambda_n\}\)</span>，<span
+class="math inline">\(m=\max\{\lambda_n\}\)</span>，则 <span
+class="math display">\[
+\left(\lambda_1a_1+\lambda_2a_2+\cdots+\lambda_na_n\right)\left(\dfrac{a_1}{\lambda_1}+\dfrac{a_2}{\lambda_2}+\cdots+\dfrac{a_n}{\lambda_n}\right)\leqslant\dfrac{(M+m)^2}{4Mm}(a_1+a_2+\cdots+a_n)^2.
+\]</span> 取等条件是：设<span
+class="math inline">\(\lambda_k=M\)</span>，<span
+class="math inline">\(\lambda_l=m\)</span>，则<span
+class="math inline">\(a_k=a_l\)</span>，<span
+class="math inline">\(a_i=0\quad(i=1,2,\cdots,n;\;i\neq
+k,l)\)</span>．</p>
+<h4 id="证明-19">证明</h4>
+<p>由对称性，不妨设<span
+class="math inline">\(M=\lambda_1\)</span>，<span
+class="math inline">\(m=\lambda_n\)</span>，于是 <span
+class="math display">\[
+\begin{aligned}
+LHS&amp;=\dfrac{1}{\lambda_1\lambda_n}(\lambda_1a_1+\lambda_2a_2+\cdots+\lambda_na_n)\left(\lambda_na_1+\dfrac{\lambda_1\lambda_n}{\lambda_2}a_2+\cdots+\lambda_1
+a_n\right)\\&amp;\leqslant\dfrac{1}{4\lambda_1\lambda_n}\left((\lambda_1+\lambda_n)a_1+\left(\lambda_n+\dfrac{\lambda_1\lambda_n}{\lambda_2}\right)a_2+\cdots+(\lambda_n+\lambda_1)a_n\right)^2\\&amp;\leqslant\dfrac{1}{4\lambda_1\lambda_n}((\lambda_1+\lambda_n)a_1+(\lambda_1+\lambda_n)a_2+\cdots+(\lambda_1+\lambda_n)a_n)^2\\&amp;=RHS.
+\end{aligned}
+\]</span> 证毕．第二个等号是借助<span
+class="math inline">\(f(x)=x+\dfrac{\lambda_1\lambda_n}{x}\)</span>的凸性．<span
+class="math inline">\(\quad\square\)</span></p>
+<h3
+id="玻利亚薛戈不等式pólya-szegö不等式">玻利亚—薛戈不等式（Pólya-Szegö不等式）</h3>
+<p>实数列<span class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span>满足<span
+class="math inline">\(0\leqslant m_1\leqslant a_i\leqslant
+M_1\)</span>，<span class="math inline">\(0\leqslant m_2\leqslant
+b_i\leqslant M_2\)</span>，则 <span class="math display">\[
+\left(\sum_{i=1}^na_i^2\right)\left(\sum_{i=1}^nb_i^2\right)\leqslant\dfrac{1}{4}\left(\sqrt{\dfrac{m_1m_2}{M_1M_2}}+\sqrt{\dfrac{M_1M_2}{m_1m_2}}\right)^2\left(\sum_{i=1}^na_ib_i\right)^2.
+\]</span></p>
+<h4 id="证明-20">证明</h4>
+<p>注意到只需证 <span class="math display">\[
+\left((m_1m_2+M_1M_2)\sum_{i=1}^na_ib_i\right)^2\geqslant4M_1M_2m_1m_2\left(\sum_{i=1}^na_i^2\right)\left(\sum_{i=1}^nb_i^2\right).
+\]</span></p>
+<p>由题意，<span class="math inline">\(\dfrac{m_1}{M_2}\leqslant
+\dfrac{a_i}{b_i}\leqslant\dfrac{M_1}{m_2}\)</span>，故 <span
+class="math display">\[
+\left(\dfrac{a_i}{b_i}-\dfrac{m_1}{M_2}\right)\left(\dfrac{a_i}{b_i}-\dfrac{M_1}{m_2}\right)\leqslant
+0
+\]</span> 即<span
+class="math inline">\(M_2m_2a_i^2+M_1m_1b_i^2\leqslant(m_1m_2+M_1M_2)a_ib_i\)</span>．对<span
+class="math inline">\(i=1,2,\cdots,n\)</span>求和得 <span
+class="math display">\[
+M_2m_2\sum_{i=1}^na_i^2+M_1m_1\sum_{i=1}^nb_i^2\leqslant(m_1m_2+M_1M_2)\sum_{i=1}^na_ib_i.
+\]</span> 由均值不等式 <span class="math display">\[
+\left(M_2m_2\sum_{i=1}^na_i^2+M_1m_1\sum_{i=1}^nb_i^2\right)^2\geqslant
+4M_1M_2m_1m_2\left(\sum_{i=1}^na_i^2\right)\left(\sum_{i=1}^nb_i^2\right)
+\]</span> 故该不等式得证．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="对以上两个不等式的注">对以上两个不等式的注</h4>
+<ol type="1">
+<li>以上两个不等式又通称<strong>反向柯西不等式</strong>．很容易看出，这两个不等式在实质上是相同的，只是它们所处理的问题方面各有特色．</li>
+<li>2017年的一试考察了康托洛维奇不等式．</li>
+</ol>
+<h3 id="阿克塞尔不等式aczel不等式">阿克塞尔不等式（Aczel不等式）</h3>
+<p>非负实数列<span class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span>满足<span
+class="math inline">\(a_1^2\geqslant
+a_2^2+a_3^2+\cdots+a_n^2\)</span>或<span
+class="math inline">\(b_1^2\geqslant
+b_2^2+b_3^2+\cdots+b_n^2\)</span>，则 <span class="math display">\[
+(a_1^2-a_2^2-a_3^2-\cdots-a_n^2)(b_1^2-b_2^2-b_3^2-\cdots-b_n^2)\leqslant
+(a_1b_1-a_2b_2-\cdots-a_nb_n)^2
+\]</span> 取等条件<span class="math inline">\(a_n\propto
+b_n\)</span>．</p>
+<h4 id="证明判别式法-1">证明（判别式法）</h4>
+<p>先设<span class="math inline">\(a_n\propto
+b_n\)</span>．此时易证等号成立．</p>
+<p>下设<span class="math inline">\(a_n\not\propto
+b_n\)</span>．不妨设<span class="math inline">\(b_1^2\geqslant
+b_2^2+b_3^2+\cdots+b_n^2\)</span>．考虑函数 <span
+class="math display">\[
+\begin{aligned}
+f(x)&amp;=(b_1^2-b_2^2-b_3^2-\cdots-b_n^2)x^2-2(a_1b_1-a_2b_2-a_3b_3-\cdots-a_nb_n)x+(a_1^2-a_2^2-a_3^2-\cdots-a_n^2)\\&amp;=(b_1x-a_1)^2-(b_2x-a_2)^2-(b_3x-a_3)^2-\cdots-(b_nx-a_n)^2.
+\end{aligned}
+\]</span> 容易证明<span
+class="math inline">\(f\left(\dfrac{a_1}{b_1}\right)&lt;0\)</span>．又由题设，二次项系数大于<span
+class="math inline">\(0\)</span>，故<span
+class="math inline">\(\displaystyle \lim_{x\to -\infty}f(x)=\lim_{x\to
++\infty}f(x)=+\infty\)</span>，于是<span
+class="math inline">\(f(x)\)</span>有二实数根，故其判别式满足 <span
+class="math display">\[
+\dfrac{\Delta}{4}=(a_1b_1-a_2b_2-\cdots-a_nb_n)^2-(a_1^2-a_2^2-a_3^2-\cdots-a_n^2)(b_1^2-b_2^2-b_3^2-\cdots-b_n^2)&gt;0.
+\]</span> 综上，该不等式得证．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-15">注</h4>
+<ol type="1">
+<li><p>该不等式也可以用<strong>柯西不等式</strong>进行证明，请读者尝试．</p></li>
+<li><p>该不等式被某些心怀叵测居心不良的人称为反向柯西不等式，稍有常识的人都可以看出这是错误的．因此，本文不如此称呼．</p>
+<p>然而，我们也容易看出其与柯西不等式之间的联系．如果考察以下结果，则能进一步探求这种联系．</p></li>
+<li><p>该不等式的推广为<strong>阿克塞尔—波波维奇—瓦西克—佩查里奇不等式（Aczel-Popoviciu-Vasic-Pecaric不等式）</strong>．其陈述如下：</p>
+<p>非负实数列<span class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span>及正实数<span
+class="math inline">\(p\)</span>、<span
+class="math inline">\(q\)</span>满足<span
+class="math inline">\(\dfrac1p+\dfrac1q=1\)</span>，<span
+class="math inline">\(a_1^p\geqslant
+a_2^p+a_3^p+\cdots+a_n^p\)</span>，<span
+class="math inline">\(b_1^q\geqslant
+b_2^q+b_3^q+\cdots+b_n^q\)</span>，则 <span class="math display">\[
+(a_1^p-a_2^p-a_3^p-\cdots-a_n^p)^\frac{1}{p}(b_1^q-b_2^q-b_3^q-\cdots-b_n^q)^\frac{1}{q}\leqslant
+a_1b_1-a_2b_2-\cdots-a_nb_n.
+\]</span>
+限于篇幅、难度、实用程度及编辑器卡顿，证明略去．可以看出，它与赫尔德不等式有对应关系．</p></li>
+<li><p>通过该推广，我们还可以得到<strong>贝尔曼不等式（Bellman不等式）</strong>：</p>
+<p>非负实数列<span class="math inline">\(\{a_n\}\)</span>、<span
+class="math inline">\(\{b_n\}\)</span>及正实数<span
+class="math inline">\(A\)</span> 、<span
+class="math inline">\(B\)</span>、<span
+class="math inline">\(p\)</span>满足<span
+class="math inline">\(A^p\geqslant
+a_1^p+a_2^p+\cdots+a_n^p\)</span>，<span
+class="math inline">\(B^p\geqslant b_1^p+b_2^p+\cdots+b_n^p\)</span>，则
+<span class="math display">\[
+\left(A^p-\sum_{i=1}^na_i^p\right)^\frac{1}{p}+\left(B^p-\sum_{i=1}^nb_i^p\right)^\frac{1}{p}\leqslant\left((A+B)^p-\sum_{i=1}^n(a_i+b_i)^p\right)^\frac{1}{p}.
+\]</span>
+同上，证明从略．这是<strong>Minkowsky不等式</strong>的反向形式．</p></li>
+</ol>
+<hr />
+<h2 id="常用不等式五类舒尔不等式">常用不等式（五）：类舒尔不等式</h2>
+<h3 id="turkevich不等式">Turkevich不等式</h3>
+<p>设<span class="math inline">\(a,b,c,d\)</span>是非负实数，则 <span
+class="math display">\[
+a^4+b^4+c^4+d^4+2abcd\geqslant
+a^2b^2+a^2c^2+a^2d^2+b^2c^2+b^2d^2+c^2d^2.
+\]</span> 取等条件为<span class="math inline">\(a=b=c=d\)</span>或<span
+class="math inline">\(a=b=c\)</span>，<span
+class="math inline">\(d=0\)</span>及其轮换．</p>
+<h4 id="第二形式">第二形式</h4>
+<p><span class="math display">\[
+3(a^4+b^4+c^4+d^4)+4abcd\geqslant (a^2+b^2+c^2+d^2)^2.
+\]</span></p>
+<h4 id="证明-21">证明</h4>
+<p>不妨设<span
+class="math inline">\(\min\{a,b,c,d\}=d\)</span>．考虑两种情况：</p>
+<p><strong>情形1．</strong>当<span
+class="math inline">\(d=0\)</span>时，只需证明 <span
+class="math display">\[
+3(a^4+b^4+c^4)\geqslant(a^2+b^2+c^2)^2
+\]</span>
+此即<strong>三元重要不等式—2</strong>的<strong>推论2</strong>．</p>
+<p><strong>情形2．</strong>当<span
+class="math inline">\(d&gt;0\)</span>时，记<span
+class="math inline">\(f(a,b,c,d)=3(a^4+b^4+c^4+d^4)+4abcd-(a^2+b^2+c^2+d^2)^2\)</span>．我们证明
+<span class="math display">\[
+f(a,b,c,d)\geqslant f(a-d,b-d,c-d,0).
+\]</span> 注意到 <span class="math display">\[
+\begin{aligned}
+f(a,b,c,d)-f(a-d,b-d,c-d,0)&amp;=2d\left(2\sum_{cyc}(a+b)(a-b)^2-d\left(2\sum_{cyc}(a-b)^2+\sum_{cyc}a^2-d^2\right)\right)\\&amp;=2
+d^4 - 2d^2 \left(2\sum_{cyc} (a - b)^2 + \sum_{cyc}a^2\right) +
+4d\left( a b c +
+    \sum_{cyc} (a + b) (a - b)^2\right)\\&amp;=2dg(d)
+\end{aligned}
+\]</span> 其中<span class="math inline">\(g(d)\)</span>为与<span
+class="math inline">\(d\)</span>有关的三次多项式， <span
+class="math display">\[
+g(d)=d^3-d\left(2\sum_{cyc}(a-b)^2+\sum_{cyc}a^2\right)+2\left( a b c +
+    \sum_{cyc} (a + b) (a - b)^2\right).
+\]</span> 注意到 <span class="math display">\[
+g&#39;(d)=3d^2-\left(2\sum_{cyc}(a-b)^2+\sum_{cyc}a^2\right)
+\]</span> 由<span class="math inline">\(0\leqslant d\leqslant
+\min\{a,b,c\}\leqslant\dfrac{a+b+c}{3}\)</span>，<span
+class="math inline">\(g&#39;(0)\leqslant 0\)</span>，<span
+class="math inline">\(g&#39;\left(\dfrac{a+b+c}{3}\right)=-\dfrac{14}{3}(a^2+b^2+c^2-ab-bc-ca)\leqslant
+0\)</span>，结合二次函数性质知<span
+class="math inline">\(g&#39;(d)\leqslant 0\)</span>．因此<span
+class="math inline">\(g(d)\)</span>在<span
+class="math inline">\(\left[0,\dfrac{a+b+c}{3}\right]\)</span>上单调递减，有
+<span class="math display">\[
+g(d)\geqslant g\left(\dfrac{a+b+c}{3}\right).
+\]</span> 因为 <span class="math display">\[
+\begin{aligned}
+\dfrac{81}{8}g\left(\dfrac{a+b+c}{3}\right)&amp;=16\sum_{cyc}a^4+12\sum_{cyc}a^2bc+\sum_{sym}a^3b-30\sum_{cyc}a^2b^2
+\end{aligned}
+\]</span> 由<strong>四次舒尔不等式</strong> <span
+class="math display">\[
+\begin{aligned}
+16\sum_{cyc}a^4+12\sum_{cyc}a^2bc+\sum_{sym}a^3b-30\sum_{cyc}a^2b^2&amp;\geqslant
+4\sum_{cyc}a^4+13\sum_{sym}a^3b-30\sum_{cyc}a^2b^2\\&amp;=2\sum_{cyc}(a^2-b^2)^2+13\sum_{cyc}ab(a-b)^2\\&amp;\geqslant
+0
+\end{aligned}
+\]</span> 故<span class="math inline">\(g(d)\geqslant
+g\left(\dfrac{a+b+c}{3}\right)\geqslant 0\)</span>．所以<span
+class="math inline">\(f(a,b,c,d)-f(a-d,b-d,c-d,0)=2dg(d)\geqslant
+0\)</span>，故由<strong>情形1</strong> <span class="math display">\[
+f(a,b,c,d)\geqslant f(a-d,b-d,c-d,0)\geqslant 0.
+\]</span> 综上，该不等式成立．<span
+class="math inline">\(\square\)</span></p>
+<h4 id="注-16">注</h4>
+<p>事实上，我们可以证明它的推广：<span
+class="math inline">\(\displaystyle\sum_{cyc}a^4+2\prod_{cyc}a\geqslant
+\sum_{sym}ab(a^2+b^2)\)</span>．运用下面的<strong>Suranyi不等式</strong>，这是显然的：</p>
+<h3 id="suranyi不等式">Suranyi不等式</h3>
+<p>数列<span class="math inline">\(\{x_n\}\)</span>为正实数，则： <span
+class="math display">\[
+(n-1)\sum_{i=1}^nx_i^n+n\prod_{i=1}^nx_i\geqslant\left(\sum_{i=1}^nx_i\right)\left(\sum_{i=1}^nx_i^{n-1}\right).
+\]</span></p>
+<h4 id="证明-22">证明</h4>
+<p>用数学归纳法．</p>
+<p>对<span class="math inline">\(n=2\)</span>，有<span
+class="math inline">\(LHS=x_1^2+x_2^2+2x_1x_2=(x_1+x_2)^2=RHS\)</span>．</p>
+<p>下设不等式对<span class="math inline">\(n\)</span>成立，我们来证对
+<span class="math inline">\(n+1\)</span>也成立．</p>
+<p>由齐次性和轮换对称性，不妨设<span
+class="math inline">\(\{x_n\}\)</span>不增，<span
+class="math inline">\(x_1+x_2+\cdots+x_n=1\)</span>，则<span
+class="math inline">\(x_{n+1}\leqslant\dfrac{1}{n}\)</span>．我们将<span
+class="math inline">\(n+1\)</span>时的不等式改写，只需证 <span
+class="math display">\[
+n\sum_{k=1}^nx_{k}^{n+1}+nx_{n+1}^{n+1}+nx_{n+1}\prod_{k=1}^nx_k+x_{n+1}\prod_{k=1}^nx_k-(1+x_{n+1})\left(\sum_{k=1}^nx_k^n+x_{n+1}^n\right)\geqslant
+0
+\]</span> 由归纳假设，我们有 <span class="math display">\[
+nx_{n+1}\prod_{k=1}^nx_k\geqslant
+x_{n+1}\sum_{k=1}^nx_{k}^{n-1}-(n-1)x_{n+1}\sum_{k=1}^nx_k^n
+\]</span> 代入原式，只需证 <span class="math display">\[
+\left(n\sum_{k=1}^nx_k^{n+1}-\sum_{k=1}^nx_k^n\right)-x_{n+1}\left(n\sum_{k=1}^nx_k^n-\sum_{k=1}^nx_{k}^{n-1}\right)+x_{n+1}\left(\prod_{k=1}^nx_k+(n-1)x_{n+1}^n-x_{n+1}^{n-1}\right)\geqslant
+0.
+\]</span> 一方面，由<strong>切比雪夫不等式</strong> <span
+class="math display">\[
+n\sum_{k=1}^nx_k^{n+1}-\sum_{k=1}^nx_k^n\geqslant\dfrac{1}{n}\left(n\sum_{k=1}^nx_k^n-\sum_{k=1}^nx_k^{n-1}\right)\geqslant
+x_{n+1}\left(n\sum_{k=1}^nx_k^n-\sum_{k=1}^nx_k^{n-1}\right)
+\]</span> 另一方面，因为 <span class="math display">\[
+\begin{aligned}
+\prod_{k=1}^nx_k+(n-1)x_{n+1}^n-x_{n+1}^{n-1}&amp;=\prod_{k=1}^n(x_{k}-x_{n+1}+x_{n+1})+(n-1)x_{n+1}^n-x_{n+1}^{n-1}\\&amp;\geqslant
+x_{n+1}^n+x_{n+1}^{n-1}\sum_{k=1}^n(x_k-x_{n+1})+(n-1)x_{n+1}^n-x_{n+1}^{n-1}\\&amp;=0
+\end{aligned}
+\]</span> 故综上，该不等式在<span
+class="math inline">\(n+1\)</span>时也成立．</p>
+<p>综上，由数学归纳法，不等式成立．<span
+class="math inline">\(\quad\square\)</span></p>
+<h4 id="注-17">注</h4>
+<ol type="1">
+<li>取<span
+class="math inline">\(n=3\)</span>，此即<strong>三次舒尔不等式</strong>；取<span
+class="math inline">\(n=4\)</span>，则得到我们上面所讲的<strong>Turkevich不等式</strong>的一个推广．由此可以看出，这是一个很强的不等式，它的强度很可能高于大部分不等式．</li>
+<li>因此，该不等式需谨慎使用．</li>
+</ol>
+<hr />
+<h1 id="和式恒等变换">和式恒等变换</h1>
+<h2 id="求和时的代数变形">求和时的代数变形</h2>
+<p>求和时，一些适当的恒等变换能帮助我们求解．以下是一些常见的恒等变换：</p>
+<h3 id="基本代数变形">基本代数变形</h3>
+<ol type="1">
+<li><span
+class="math inline">\(a_ia_j+b_ib_j-a_ib_j-a_jb_i=(a_i-b_i)(a_j-b_j)\)</span>；</li>
+<li><span class="math inline">\(\displaystyle
+\left(\sum_{i=1}^na_i\right)^2=\sum_{i=1}^na_i^2+2\sum_{1\leqslant
+i&lt;j\leqslant n}a_ia_j\)</span>；</li>
+<li><span class="math inline">\(\displaystyle
+\left(\sum_{i=1}^na_i\right)\left(\sum_{j=1}^nb_j\right)=\sum_{i=1}^n\sum_{j=1}^na_ib_j\)</span>；</li>
+<li><span class="math inline">\(\displaystyle\sum_{1\leqslant
+i&lt;j\leqslant
+n}(a_i-a_j)^2=n\sum_{i=1}^na_i^2-\left(\sum_{i=1}^na_i\right)^2\)</span></li>
+<li><span class="math inline">\(\displaystyle \sum_{1\leqslant
+i&lt;j\leqslant
+n}a_ia_j=\sum_{i=1}^n\sum_{j=i}^na_ia_j=\sum_{j=1}^n\sum_{i=1}^ja_ia_j\)</span></li>
+<li><span class="math inline">\(\displaystyle
+\sum_{i=1}^n\sum_{j=1}^na_ib_j=\dfrac{1}{2}\sum_{i=1}^n\sum_{j=1}^n(a_ib_j+a_jb_i)\)</span></li>
+<li>（<strong>裂项公式</strong>）<span
+class="math inline">\(\displaystyle
+a_n-a_1=\sum_{i=1}^{n-1}(a_{i+1}-a_i)\)</span>．</li>
+</ol>
+<h3 id="阿贝尔变换abel变换">阿贝尔变换（Abel变换）</h3>
+<p>下面介绍著名的<strong>阿贝尔变换</strong>：</p>
+<h4 id="阿贝尔和差变换公式">阿贝尔和差变换公式</h4>
+<p><span class="math display">\[
+\sum_{k=m}^n(a_k-a_{k-1})b_k=a_nb_n-a_{m-1}b_m+\sum_{k=m}^{n-1}a_k(b_k-b_{k+1}).
+\]</span></p>
+<h4 id="阿贝尔分部求和公式">阿贝尔分部求和公式</h4>
+<p>设<span class="math inline">\(\displaystyle
+S_m=\sum_{i=1}^ma_i\)</span>，<span
+class="math inline">\(S_0=0\)</span>，则 <span class="math display">\[
+\sum_{k=1}^na_kb_k=b_nS_n+\sum_{k=1}^{m-1}S_k(b_k-b_{k+1}).
+\]</span> 以上两个恒等式通称为<strong>阿贝尔变换公式</strong>．</p>
+<h2 id="常用恒等式">常用恒等式</h2>
+<h3
+id="拉格朗日恒等式lagrange恒等式">拉格朗日恒等式（Lagrange恒等式）</h3>
+<p><span class="math display">\[
+\left(\sum_{i=1}^na_i^2\right)\left(\sum_{i=1}^nb_i^2\right)=\left(\sum_{i=1}^na_ib_i\right)^2+\sum_{1\leqslant
+i&lt;j\leqslant n}(a_ib_j-a_jb_i)^2.
+\]</span></p>
+<h3 id="平方和乘积恒等式">平方和乘积恒等式</h3>
+<p><span class="math display">\[
+(a^2+b^2)(c^2+d^2)=(ac+bd)^2+(ad-bc)^2.
+\]</span></p>
+<h3 id="牛顿恒等式newton恒等式">牛顿恒等式（Newton恒等式）</h3>
+<p>设<span
+class="math inline">\(P(x)=a_0+a_1x+a_2x^2+\cdots+a_nx^n\)</span>，其<span
+class="math inline">\(k\)</span>个根为<span
+class="math inline">\(\alpha_1,\alpha_2,\cdots,\alpha_n\)</span>，记<span
+class="math inline">\(\displaystyle P_i=\sum_{j=1}^ka_j^i\)</span>，则
+<span class="math display">\[
+a_nP_i=\sum_{j=1}^k(-1)^{j+1}a_jP_{i-j}.
+\]</span></p>
+<h3 id="另一个与韦达定理有关的恒等式">另一个与韦达定理有关的恒等式</h3>
+<p>设<span
+class="math inline">\(x_1,x_2,\cdots,x_n\)</span>为实数，记<span
+class="math inline">\(\displaystyle\sigma_k=\sum_{1\leqslant
+i_1&lt;i_2&lt;\cdots&lt;i_k\leqslant n}x_{i_1}x_{i_2}\cdots
+x_{i_k}\)</span>，则 <span class="math display">\[
+\prod_{k=1}^n(x_k^2+1)=\left(\sum_{k=1}^{\left\lfloor
+\frac{n}{2}\right\rfloor}\sigma_{2k}(-1)^k\right)^2+\left(\sum_{k=1}^{\left\lfloor\frac{n-1}{2}\right\rfloor}\sigma_{2k+1}(-1)^{k}\right)^2.
+\]</span></p>
+<hr />
+<h1 id="常用技巧">常用技巧</h1>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E4%B8%8D%E7%AD%89%E5%BC%8F/" rel="tag"># 不等式</a>
+              <a href="/tags/%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B/" rel="tag"># 数学竞赛</a>
+              <a href="/tags/%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag"># 复习笔记</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/07/24/%E4%B8%80%E9%81%93%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B8%89%E5%85%83%E5%AF%B9%E7%A7%B0%E4%B8%8D%E7%AD%89%E5%BC%8F/" rel="prev" title="一道有趣的三元对称不等式">
+                  <i class="fa fa-angle-left"></i> 一道有趣的三元对称不等式
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2021/10/17/Turkevich%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E4%B8%80%E4%B8%AA%E8%AF%81%E6%98%8E/" rel="next" title="Turkevich不等式的一个证明">
+                  Turkevich不等式的一个证明 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">霜夏</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+
+</body>
+</html>
