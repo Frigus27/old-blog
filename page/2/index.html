@@ -82,7 +82,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-首页"><a href="/" rel="section">首页</a></li><li class="menu-item menu-item-存档"><a href="/archives" rel="section">存档</a></li><li class="menu-item menu-item-标签"><a href="/tags" rel="section">标签</a></li><li class="menu-item menu-item-分类"><a href="/categories" rel="section">分类</a></li><li class="menu-item menu-item-关于"><a href="/about" rel="section">关于</a></li><li class="menu-item menu-item-数竞笔记"><a href="/monotes" rel="section">数竞笔记</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-首页"><a href="/" rel="section">首页</a></li><li class="menu-item menu-item-关于"><a href="/about" rel="section">关于</a></li><li class="menu-item menu-item-学习笔记"><a href="/notes" rel="section">学习笔记</a></li><li class="menu-item menu-item-杂七杂八小玩意儿"><a href="/utilities" rel="section">杂七杂八小玩意儿</a></li>
   </ul>
 </nav>
 
@@ -127,7 +127,7 @@
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-count">13</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -194,7 +194,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2021-06-20 16:24:59" itemprop="dateModified" datetime="2021-06-20T16:24:59+08:00">2021-06-20</time>
+      <time title="修改时间：2024-07-12 19:30:18" itemprop="dateModified" datetime="2024-07-12T19:30:18+08:00">2024-07-12</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -202,7 +202,15 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95%E7%A0%94%E7%A9%B6%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">平面几何研究笔记</span></a>
+          <a href="/categories/%E7%A0%94%E7%A9%B6%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">研究笔记</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%A0%94%E7%A9%B6%E7%AC%94%E8%AE%B0/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6/" itemprop="url" rel="index"><span itemprop="name">高中数学</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%A0%94%E7%A9%B6%E7%AC%94%E8%AE%B0/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6/%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/" itemprop="url" rel="index"><span itemprop="name">平面几何</span></a>
         </span>
     </span>
 
@@ -216,14 +224,12 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>（本文知乎版：<a
-target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/345615888">平面几何｜浅谈平面几何中的「对称性分析」
-- 知乎 (zhihu.com)</a>）</p>
-<h1 id="前言">前言</h1>
+          <p>（本文知乎版：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/345615888">平面几何｜浅谈平面几何中的「对称性分析」 - 知乎 (zhihu.com)</a>）</p>
+<h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
 <p>在平面几何的学习中，不知你有没有遇到过这样的问题呢？</p>
 <p>这类问题的图形可以分为两个部分，两个部分的结构是相似的，并且在结构上的性质似乎也是相同的；至于要证的结论，则是一个同时包括两个部分中的一些点或线的命题．经过一定探索，往往可以发现这一结论可以通过两部分图形中的一些性质推出；然而这两部分图形中的性质却相互成充要条件，除去一些简单的结论，经常出现要证一边则需证另一边的情况，找不到解决问题的着力点．它就像是一种「对称」，虽然边边角角没有确切的相等关系，然而对其任意一个部分的任意一个结论，在另一边中都能找到相对应的类似结论．</p>
 <p>那么，这一类问题有什么通性呢？又如何去解决这一类问题呢？</p>
-<p>本文将尝试建立这一类问题的一个理论体系，并对这一类问题提出几个处理方法．在以下的内容中，我们称这一类问题为<strong>「对称性问题」</strong>，并将对此类问题的分析转为对点的分析；对于点，我们将建立一种称为<strong>「交换」</strong>的变换，并在该变换下对这类问题进行研究．</p>
+<p>本文将尝试建立这一类问题的一个理论体系，并对这一类问题提出几个处理方法．在以下的内容中，我们称这一类问题为**「对称性问题」<strong>，并将对此类问题的分析转为对点的分析；对于点，我们将建立一种称为</strong>「交换」**的变换，并在该变换下对这类问题进行研究．</p>
 <p>当然，本文只是本人的一个尝试，其中难免有疏漏．如有问题，还敬请各位dalao指正！</p>
           <!--noindex-->
             <div class="post-button">
